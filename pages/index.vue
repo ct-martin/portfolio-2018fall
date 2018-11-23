@@ -1,16 +1,18 @@
 <template>
-  <section class="container">
-    <div>
-      <h1 class="title">
-        Backplane
-      </h1>
-      <h2 class="subtitle">
-        Node.js dynamic reverse proxy
-      </h2>
-      <div class="links">
-        <a href="https://nuxtjs.org/" target="_blank" class="button--green">Documentation</a>
-        <a href="https://github.com/nuxt/nuxt.js" target="_blank" class="button--grey">GitHub</a>
+<div>
+  <article class="container">
+    <p>Student, Developer, Creative Technologist, Open Sorcerer, Explorer; Studying New Media Interactive Development at RIT.</p>
+  </article>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-6 col-lg-4" v-for="project in this.$store.state.projects.list.filter(item => item.tags.includes('home'))" :key="project.name">
+        <b-card :title="project.name">
+          <p class="card-text">
+            {{ project.description }}
+          </p>
+        </b-card>
       </div>
     </div>
-  </section>
+  </div>
+  </div>
 </template>

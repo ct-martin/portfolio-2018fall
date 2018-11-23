@@ -1,11 +1,32 @@
 /* Custom CSS */
 
+/* Imports */
+/* @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i|Source+Code+Pro:300|Montserrat:300'); */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i|Source+Code+Pro:300');
+
+/* sticky footer - https://css-tricks.com/couple-takes-sticky-footer/ */
+html, body, #__nuxt, #__layout, #__layout>div {
+    height: 100%;
+}
+#__layout>div {
+    display: flex;
+    flex-direction: column;
+}
+main {
+    flex: 1 0 auto;
+}
+footer {
+    flex-shrink: 0;
+}
+
 /* Design changes */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i|Source+Code+Pro:300|Montserrat:300');
 body {
 	font-family: 'Open Sans'; /* Fallback on Bootstrap */
 }
-body, h1, h2, h3, h4, h5, h6 {
+/* h1, h2, h3, h4, h5, h6 {
+	font-family: 'Montserrat';
+} */
+body, h1, h2, h3, h4, h5, h6, small {
 	font-weight: 300;
 }
 b, strong {
@@ -20,16 +41,27 @@ tt, code, kbd, samp, pre {
 } */
 
 /* Functional changes */
-main {
+body {
     padding-top: 75px; /* 60px for nav + 15px padding */
 }
 
+nav.navbar {
+	background-color: white;
+	border-bottom: 1px solid lightgrey;
+	box-shadow: 0 0 7px dimgrey;
+}
 .nav-link {
     padding-left: .5rem;
 }
 
-footer .container p, footer .container-fluid p {
-    margin-bottom: 0;
+footer {
+	color: white;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	margin-top: 1.2rem;
+}
+footer p {
+	margin-bottom: 0;
 }
 
 /* Bootstrap's <blockquote>s are really hard to differentiate,

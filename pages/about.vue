@@ -54,15 +54,12 @@
             <h4 class="card-title">Languages</h4>
           </div>
           <ul class="list-group list-group-flush">
-            <li class="list-group-item"><span aria-hidden="true" class="fa fa-fw fa-terminal"></span> Bash</li>
             <li class="list-group-item"><span aria-hidden="true" class="fa fa-fw fa-code"></span> C#</li>
-            <li class="list-group-item"><span aria-hidden="true" class="fa fa-fw fa-code"></span> C++</li>
-            <li class="list-group-item"><span aria-hidden="true" class="fa fa-fw fa-code"></span> Java</li>
-            <li class="list-group-item"><span aria-hidden="true" class="fa fa-fw fa-cloud"></span> <strong>JavaScript</strong> (inc. Node.JS)</li>
+            <li class="list-group-item"><span aria-hidden="true" class="fa fa-fw fa-css3"></span> CSS3</li>
+            <li class="list-group-item"><span aria-hidden="true" class="fa fa-fw fa-html5"></span> HTML5</li>
+            <li class="list-group-item"><span aria-hidden="true" class="fa fa-fw fa-code"></span> <strong>JavaScript</strong> (inc. Node.JS)</li>
             <li class="list-group-item"><span aria-hidden="true" class="fa fa-fw fa-cloud"></span> <strong>PHP</strong></li>
-            <li class="list-group-item"><span aria-hidden="true" class="fa fa-fw fa-terminal"></span> PowerShell</li>
-            <li class="list-group-item"><span aria-hidden="true" class="fa fa-fw fa-code"></span> <strong>Processing</strong> (Java, p5.js)</li>
-            <li class="list-group-item"><span aria-hidden="true" class="fa fa-fw fa-code"></span> Python</li>
+            <li class="list-group-item"><span aria-hidden="true" class="fa fa-fw fa-code"></span> React</li>
           </ul>
         </div>
       </div>
@@ -72,16 +69,12 @@
             <h4 class="card-title">Technologies</h4>
           </div>
           <ul class="list-group list-group-flush">
-            <li class="list-group-item"><span aria-hidden="true" class="fa fa-fw fa-terminal"></span> Ansible</li>
             <li class="list-group-item"><span aria-hidden="true" class="fa fa-fw fa-cloud"></span> Apache</li>
-            <li class="list-group-item"><span aria-hidden="true" class="fa fa-fw fa-tasks"></span> Continuous Integration (CI; Jenkins)</li>
-            <li class="list-group-item"><span aria-hidden="true" class="fa fa-fw fa-code-branch"></span> Git</li>
+            <li class="list-group-item"><span aria-hidden="true" class="fa fa-fw fa-tasks"></span> Continuous Integration (CI)</li>
+            <li class="list-group-item"><span aria-hidden="true" class="fa fa-fw fa-code-fork"></span> Git</li>
             <li class="list-group-item"><span aria-hidden="true" class="fa fa-fw fa-database"></span> MariaDB (MySQL)</li>
             <li class="list-group-item"><span aria-hidden="true" class="fa fa-fw fa-sync"></span> MVC</li>
             <li class="list-group-item"><span aria-hidden="true" class="fa fa-fw fa-cloud"></span> Networking</li>
-            <li class="list-group-item"><span aria-hidden="true" class="fa fa-fw fa-hdd"></span> RAID(Z)</li>
-            <li class="list-group-item"><span aria-hidden="true" class="fa fa-fw fa-cloud"></span> Snort (NIDS)</li>
-            <li class="list-group-item"><span aria-hidden="true" class="fa fa-fw fa-cloud"></span> Virtualization (QEMU/KVM-based, ESXi)</li>
           </ul>
         </div>
       </div>
@@ -92,13 +85,9 @@
           </div>
           <ul class="list-group list-group-flush">
             <li class="list-group-item"><span aria-hidden="true" class="fa fa-fw fa-cloud"></span> <strong>Docker</strong></li>
-            <li class="list-group-item"><span aria-hidden="true" class="fa fa-fw fa-cloud"></span> DD-WRT</li>
-            <li class="list-group-item"><span aria-hidden="true" class="fa fa-fw fa-cloud"></span> <strong>FreeNAS</strong></li>
-            <li class="list-group-item"><span aria-hidden="true" class="fa fa-fw fa-linux"></span> <strong>Linux</strong> (Debian, Fedora, Ubuntu)</li>
-            <li class="list-group-item"><span aria-hidden="true" class="fa fa-fw fa-apple"></span> macOS</li>
+            <li class="list-group-item"><span aria-hidden="true" class="fa fa-fw fa-linux"></span> <strong>Linux</strong> (CentOS, Debian, Fedora, Ubuntu)</li>
             <li class="list-group-item"><span aria-hidden="true" class="fa fa-fw fa-windows"></span> Microsoft Windows</li>
-            <li class="list-group-item"><span aria-hidden="true" class="fa fa-fw fa-cloud"></span> <strong>pfSense</strong></li>
-            <li class="list-group-item"><span aria-hidden="true" class="fa fa-fw fa-cloud"></span> VMware ESXi</li>
+            <li class="list-group-item"><span aria-hidden="true" class="fa fa-fw fa-cloud"></span> Virtualization (QEMU/KVM-based, ESXi)</li>
           </ul>
         </div>
       </div>
@@ -110,11 +99,7 @@
           <ul class="list-group list-group-flush">
             <li class="list-group-item"><span aria-hidden="true" class="fa fa-fw fa-file-image-o"></span> Adobe Illustrator</li>
             <li class="list-group-item"><span aria-hidden="true" class="fa fa-fw fa-file-image-o"></span> Adobe Photoshop</li>
-            <li class="list-group-item"><span aria-hidden="true" class="fa fa-fw fa-file-audio-o"></span> Cakewalk SONAR</li>
-            <li class="list-group-item"><span aria-hidden="true" class="fa fa-fw fa-css3"></span> CSS3</li>
-            <li class="list-group-item"><span aria-hidden="true" class="fa fa-fw fa-html5"></span> HTML5</li>
-            <li class="list-group-item"><span aria-hidden="true" class="fa fa-fw fa-joomla"></span> Joomla!</li>
-            <li class="list-group-item"><span aria-hidden="true" class="fa fa-fw fa-file-alt"></span> Microsoft Office</li>
+            <li class="list-group-item"><span aria-hidden="true" class="fa fa-fw fa-file-image-o"></span> Adobe XD</li>
             <li class="list-group-item"><span aria-hidden="true" class="fa fa-fw fa-gamepad"></span> Unity</li>
             <li class="list-group-item"><span aria-hidden="true" class="fa fa-fw fa-gamepad"></span> Unreal Engine</li>
             <li class="list-group-item"><span aria-hidden="true" class="fa fa-fw fa-wordpress"></span> WordPress</li>

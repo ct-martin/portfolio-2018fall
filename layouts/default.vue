@@ -6,7 +6,7 @@
     </main>
     <footer class="container-fluid bg-dark">
       <div class="container">
-        <p>&copy; 2018 Christian Martin</p>
+        <p>&copy; 2019 Christian Martin</p>
       </div>
     </footer>
   </div>

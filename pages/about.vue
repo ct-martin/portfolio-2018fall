@@ -12,40 +12,6 @@
       <li class="list-group-item"><span aria-hidden="true" class="fa fa-fw fa-handshake-o"></span> Employers: I can be found on RIT's Handshake and LinkedIn. Email me for a link and/or resume.</li><!--/sse-->
     </ul>
     <br />
-    <h2 id="nmid">What is New Media Interactive Development?</h2>
-    <div class="row">
-      <div class="col-12 col-md-6 col-lg-4">
-        <div class="card" style="margin-top: .75rem;">
-          <div class="card-body">
-            <blockquote class="blockquote">
-            <p class="mb-0">All types of emerging content &amp; experiences made possible by computing &amp; connectivity.</p>
-            <!-- <footer class="blockquote-footer">Slides from a course</footer> -->
-            </blockquote>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-md-6 col-lg-4">
-        <div class="card" style="margin-top: .75rem;">
-          <div class="card-body">
-            <blockquote class="blockquote">
-            <p class="mb-0">New Media Interactive Development uses a toolbox that includes code, connectivity, data, aesthetics, &amp; other new &amp; evolving approaches.</p>
-            <!-- <footer class="blockquote-footer">Slides from a course</footer> -->
-            </blockquote>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-md-6 col-lg-4">
-        <div class="card" style="margin-top: .75rem;">
-          <div class="card-body">
-            <blockquote class="blockquote">
-            <p class="mb-0">The field of new media explores new and evolving technologies... to create useful, delightful, and engaging experiences.</p>
-            <footer class="blockquote-footer"><a href="https://www.rit.edu/gccis/igm/bs-new-media-interactive-development-overview">IGM Degree Overview</a></footer>
-            </blockquote>
-          </div>
-        </div>
-      </div>
-    </div>
-    <br />
     <h2 id="skills">Skills</h2>
     <div class="row">
       <div class="col-12 col-md-4 col-lg-3">

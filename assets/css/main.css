@@ -99,6 +99,10 @@ blockquote.blockquote-fix {
 	white-space: normal;
 }
 
+/* About page custom */
+#skills~.row .card-title {
+  margin-bottom: 0;
+}
 
 /* Resume formatting */
 p.indented {

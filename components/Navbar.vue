@@ -1,6 +1,6 @@
 <template>
   <b-navbar toggleable="lg" type="light" fixed="top">
-  <b-navbar-brand to="/">Christian Martin</b-navbar-brand>
+  <b-navbar-brand to="/" class="font-weight-bold">Christian Martin</b-navbar-brand>
     <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
 
     <b-collapse is-nav id="nav_collapse">

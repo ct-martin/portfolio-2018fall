@@ -2,7 +2,7 @@
 
 /* Imports */
 /* @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i|Source+Code+Pro:300|Montserrat:300'); */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i|Source+Code+Pro:300');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,600,600i|Source+Code+Pro:300');
 
 /* sticky footer - https://css-tricks.com/couple-takes-sticky-footer/ */
 html, body, #__nuxt, #__layout, #__layout>div {
@@ -26,11 +26,11 @@ body {
 /* h1, h2, h3, h4, h5, h6 {
 	font-family: 'Montserrat';
 } */
-body, h1, h2, h3, h4, h5, h6, small {
+body, small, h2, h3, h4, h5, h6 {
 	font-weight: 300;
 }
-b, strong {
-	font-weight: 400;
+h1, b, strong, .font-weight-bold {
+	font-weight: 600;
 }
 tt, code, kbd, samp, pre {
 	font-family: 'Source Code Pro';
@@ -73,21 +73,35 @@ blockquote.blockquote-fix {
 /* Bootstrap's carousel controls do not show up against a white image,
 	add some shadow (note: already has opacity 0.5). */
 .carousel-control-next, .carousel-control-prev/*, .carousel-caption*/ {
-	text-shadow:
+  top: initial;
+  padding: 15px;
+  width: initial;
+	/*text-shadow:
 		1px 1px 0px black,
 		-1px 1px 0px black,
 		1px -1px 0px black,
-		-1px -1px 0px black;
+		-1px -1px 0px black;*/
+}
+.carousel-indicators {
+  bottom: -5px;
 }
 .carousel-indicators li {
 	box-shadow: 0 0 1px black;
 	background-color: rgba(191,191,191,.5);
 }
-/*.carousel-caption {
+.carousel-caption {
 	background-color: rgba(0,0,0,.4);
-	color: rgba(255,255,255,.9);
-	padding: 5px;
-}*/
+	/*color: rgba(255,255,255,.9);*/
+  text-align: left;
+  left: 0;
+  right: 0;
+  bottom: 0;
+	padding: 5px 10px 15px 55px;
+  min-height: 50px;
+}
+.carousel-caption p {
+  margin-bottom: 0;
+}
 /* Some tweaks for card images */
 .card-img-top-tweaks {
 	width: auto;
@@ -97,6 +111,17 @@ blockquote.blockquote-fix {
 /* Allow buttons to wrap */
 .btn {
 	white-space: normal;
+}
+
+/* General tweaks for how things are typically used */
+article>a.btn.d-block {
+  margin-bottom: 0.6em;
+}
+article>a.btn.d-block:last-of-type {
+  margin-bottom: 0;
+}
+.card-body>p:only-child {
+  margin-bottom: 0;
 }
 
 /* About page custom */

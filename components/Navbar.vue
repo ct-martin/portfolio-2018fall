@@ -8,7 +8,7 @@
         <b-nav-item to="/">Home</b-nav-item>
         <b-nav-item to="/projects">Projects</b-nav-item>
         <b-nav-item to="/talks">Talks</b-nav-item>
-        <b-nav-item href="https://blog.ctmartin.me/">Blog</b-nav-item>
+        <b-nav-item to="/articles">Articles</b-nav-item>
       </b-navbar-nav>
 
       <b-navbar-nav class="ml-auto">

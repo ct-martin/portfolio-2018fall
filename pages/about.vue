@@ -26,6 +26,7 @@
             <li class="list-group-item"><span aria-hidden="true" class="fa fa-fw fa-code"></span> <strong>JavaScript</strong> (inc. Node.JS)</li>
             <li class="list-group-item"><span aria-hidden="true" class="fa fa-fw fa-cloud"></span> <strong>PHP</strong></li>
             <li class="list-group-item"><span aria-hidden="true" class="fa fa-fw fa-code"></span> React</li>
+            <li class="list-group-item"><span aria-hidden="true" class="fa fa-fw fa-code"></span> Vue</li>
           </ul>
         </div>
       </div>
@@ -37,10 +38,11 @@
           <ul class="list-group list-group-flush">
             <li class="list-group-item"><span aria-hidden="true" class="fa fa-fw fa-cloud"></span> Apache</li>
             <li class="list-group-item"><span aria-hidden="true" class="fa fa-fw fa-tasks"></span> Continuous Integration (CI)</li>
-            <li class="list-group-item"><span aria-hidden="true" class="fa fa-fw fa-code-fork"></span> Git</li>
+            <li class="list-group-item"><span aria-hidden="true" class="fa fa-fw fa-code-fork"></span> Git &amp; GitHub</li>
             <li class="list-group-item"><span aria-hidden="true" class="fa fa-fw fa-database"></span> MariaDB (MySQL)</li>
-            <li class="list-group-item"><span aria-hidden="true" class="fa fa-fw fa-sync"></span> MVC</li>
+            <li class="list-group-item"><span aria-hidden="true" class="fa fa-fw fa-database"></span> MongoDB</li>
             <li class="list-group-item"><span aria-hidden="true" class="fa fa-fw fa-cloud"></span> Networking</li>
+            <li class="list-group-item"><span aria-hidden="true" class="fa fa-fw fa-cloud"></span> Nginx</li>
           </ul>
         </div>
       </div>
@@ -50,7 +52,7 @@
             <h4 class="card-title">Platforms</h4>
           </div>
           <ul class="list-group list-group-flush">
-            <li class="list-group-item"><span aria-hidden="true" class="fa fa-fw fa-cloud"></span> <strong>Docker</strong></li>
+            <li class="list-group-item"><span aria-hidden="true" class="fa fa-fw fa-cloud"></span> Docker</li>
             <li class="list-group-item"><span aria-hidden="true" class="fa fa-fw fa-linux"></span> <strong>Linux</strong> (CentOS, Debian, Fedora, Ubuntu)</li>
             <li class="list-group-item"><span aria-hidden="true" class="fa fa-fw fa-windows"></span> Microsoft Windows</li>
             <li class="list-group-item"><span aria-hidden="true" class="fa fa-fw fa-cloud"></span> Virtualization (QEMU/KVM-based, ESXi)</li>

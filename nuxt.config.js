@@ -7,7 +7,7 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: pkg.name,
+    title: "Portfolio | Christian Martin",
     lang: 'en',
     meta: [
       { charset: 'utf-8' },

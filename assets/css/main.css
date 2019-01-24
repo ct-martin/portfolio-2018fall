@@ -124,6 +124,29 @@ article>a.btn.d-block:last-of-type {
   margin-bottom: 0;
 }
 
+/* Home page custom */
+#homeCards .card {
+  margin-bottom: 1.2em;
+}
+#homeCards .card-title {
+  margin-bottom: 0;
+}
+#homeCards .list-group {
+   margin: 0 0.2em 0.2em 0.2em;
+}
+#homeCards .list-group-item {
+  border: 0;
+}
+
+/* Trick for right chevrons on list group items */
+.list-group-item .fa {
+  margin-right: 0.25em;
+}
+.list-group-item.d-flex>div~span.fa {
+  margin-left: 5px;
+  margin-right: 0;
+}
+
 /* About page custom */
 #skills~.row .card-title {
   margin-bottom: 0;

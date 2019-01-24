@@ -5,7 +5,7 @@ const createStore = {
         name: 'Trust in the Internet Age',
         url: '/talks/stv-internet-trust',
         subtitle: 'Talk @ STV',
-        description: 'Group presentation for Science, Technology, &amp; Values on how the internet is build on trust and the complications that can arise from violation of that social construct.',
+        description: 'Group presentation for Science, Technology, & Values on how the internet is build on trust and the complications that can arise from violation of that social construct.',
         tags: ['stv', 'talk']
       },
       {

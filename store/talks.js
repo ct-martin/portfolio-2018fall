@@ -13,16 +13,21 @@ const createStore = {
         url: '/talks/ritlug-overview-distributed-computing',
         subtitle: 'Talk @ RITlug',
         description: 'An overview of distributed computing, such as virtualization and containers, how we use them, and why.',
-        tags: ['ritlug', 'talk']
+        tags: ['ritlug', 'talk', 'cloud']
       },
       {
         name: 'Building Your Own Self-Hosted Infrastructure (Using Linux)',
         url: '/talks/ritlug-self-hosted',
         subtitle: 'Workshop @ RITlug',
         description: 'In this workshop, we will be creating a personal server that you can easily deploy yourself at home on a Raspberry Pi or a VPS (the cloud).',
-        tags: ['ritlug', 'workshop']
+        tags: ['ritlug', 'workshop', 'cloud']
       },
-    ]
+    ].map(item => {
+      const listitem = item;
+      listitem.category = 'talks';
+      listitem.icon = 'fa-desktop';
+      return listitem;
+    })
   }
 }
 

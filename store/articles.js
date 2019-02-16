@@ -2,6 +2,18 @@ const createStore = {
   state: {
     list: [
       {
+        name: 'The apartment life of securing data',
+        url: 'https://blog.ctmartin.me/2019/01/the-apartment-life-of-securing-data/',
+        description: 'Having enough data to want to secure it, but no permanent, secure location makes for interesting data management challenges.',
+        tags: ['cloud']
+      },
+      {
+        name: 'Problems of running production software at small scale',
+        url: 'https://blog.ctmartin.me/2019/01/problems-of-running-production-software-at-small-scale/',
+        description: 'Running the same technology that is used for production systems is not always a viable option and why this is a challenge, particularly as a student.',
+        tags: ['cloud', 'home-cloud']
+      },
+      {
         name: 'Secure cookies behind multiple proxies',
         url: 'https://blog.ctmartin.me/2019/01/secure-cookies-behind-multiple-proxies/',
         description: 'What I learned while implementing Secure cookies on a project.',

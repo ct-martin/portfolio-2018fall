@@ -124,7 +124,18 @@ article>a.btn.d-block:last-of-type {
   margin-bottom: 0;
 }
 
+/* General custom / FX */
+/*.navbar-brand:hover {
+  text-shadow: 2px 2px 1px rgba(0,0,0,0.2);
+}*/
+
 /* Home page custom */
+#heroCards a {
+  color: rgba(0,0,0,0.9);
+}
+#heroCards a:hover {
+  text-decoration: none;
+}
 #homeCards .card {
   margin-bottom: 1.2em;
 }

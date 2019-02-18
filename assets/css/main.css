@@ -41,6 +41,17 @@ main>article {
   /* Based on typical page structure/use */
   padding-top: 1em;
 }
+.print-only {
+  display: none;
+}
+@media print {
+  .print-only {
+    display: initial;
+  }
+  .print-hidden {
+    display: none;
+  }
+}
 /* Copied from Bootstrap under the MIT license */
 /* https://getbootstrap.com/docs/4.3/utilities/embed/ */
 .embed-responsive {

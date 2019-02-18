@@ -19,7 +19,6 @@
     "npm": "6.4.x"
   },
   "dependencies": {
-    "bootstrap-vue": "^2.0.0-rc.11",
     "buefy": "^0.7.2",
     "express": "^4.16.4",
     "nuxt": "^1.4.5",
@@ -31,12 +30,12 @@
   "devDependencies": {
     "babel-eslint": "^8.2.1",
     "cross-env": "^5.0.1",
-    "eslint": "^5.12.1",
+    "eslint": "^5.14.0",
     "eslint-config-airbnb": "^17.1.0",
-    "eslint-loader": "^2.1.1",
-    "eslint-plugin-import": "^2.15.0",
+    "eslint-loader": "^2.1.2",
+    "eslint-plugin-import": "^2.16.0",
     "eslint-plugin-vue": "^4.0.0",
-    "nodemon": "^1.18.9",
+    "nodemon": "^1.18.10",
     "push-dir": "^0.4.1"
   }
 }

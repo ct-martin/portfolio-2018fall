@@ -137,3 +137,11 @@
     </div>
   </article>
 </template>
+
+<style>
+@media print {
+  .navbar, .footer {
+    display: none;
+  }
+}
+</style>

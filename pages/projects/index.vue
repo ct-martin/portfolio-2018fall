@@ -1,20 +1,19 @@
 <template>
-  <div class="container">
-    <h1>Projects</h1>
-    <div class="row">
-      <div class="col-12 col-md-6 col-lg-4" v-for="project in this.$store.state.projects.list" :key="project.name">
-        <div class="card" style="margin-top:.75rem;">
-          <div class="card-body">
-            <h4 class="card-title"><span v-if="project.icon" :class="project.icon" class="fa fa-fw"></span> {{ project.name }}</h4>
-            <p class="text-muted" v-if="project.subtitle || project.badge">
+  <article class="container">
+    <h1 class="title">Projects</h1>
+    <div class="columns is-multiline">
+      <div class="column is-4-tablet is-3-desktop" v-for="project in this.$store.state.projects.list" :key="project.name">
+        <nuxt-link :to="project.url" class="card is-block">
+          <div class="card-content">
+            <p class="title is-4"><span v-if="project.icon" :class="project.icon" class="fa fa-fw"></span> {{ project.name }}</p>
+            <p class="has-text-light" v-if="project.subtitle || project.badge">
               {{ project.subtitle }}
-              <b-badge v-if="project.badge">{{ project.badge }}</b-badge>
+              <span class="tag" v-if="project.badge">{{ project.badge }}</span>
             </p>
             <p class="card-text">{{ project.description }}</p>
-            <b-link :to="project.url" class="card-link">Explore</b-link>
           </div>
-        </div>
+        </nuxt-link>
       </div>
     </div>
-  </div>
+  </article>
 </template>

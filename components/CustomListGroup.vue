@@ -1,5 +1,5 @@
 <template>
-  <div class="list-group list-group-flush">
+  <div>
     <custom-list-group-item :project="project" v-for="project in this.itemList" :key="project.name" />
   </div>
 </template>

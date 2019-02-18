@@ -101,9 +101,9 @@
     	<li><a href="https://www.digitalocean.com/community/tutorials/initial-server-setup-with-debian-8" target="_blank">"Initial Server Setup" (SSH Keys/Debian 8)</a></li>
     </ul>
 
-    <a href="http://ritlug.com/announcements/2018/01/31/homelab.html" target="_blank" class="btn btn-primary w-100">RITlug Announcement Post</a>
+    <a href="http://ritlug.com/announcements/2018/01/31/homelab.html" target="_blank" class="button is-link is-fullwidth">RITlug Announcement Post</a>
     <div class="card" style="margin-top:1rem;">
-    	<div class="card-body">
+    	<div class="card-content">
     		<h4 class="card-title">License</h4>
     		<p>This workshop is available under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0</a></p>
     	</div>

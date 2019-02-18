@@ -1,10 +1,12 @@
 <template>
   <article class="container">
-    <h1>TigerOS <small>Project Lead</small></h1>
+    <h1 class="title">TigerOS <small>Project Lead</small></h1>
 
     <blockquote class="blockquote blockquote-fix">
       Fedora Remix maintained by the Rochester Institute of Technology (RIT) Linux Users Group, targeted at users new to Linux and RIT students, faculty, and staff
     </blockquote>
+
+    <p>TigerOS is designed to be familiar to users coming from Mac or Windows.</p>
 
     <p>
       Since joining the project, TigerOS has re-written almost all of its codebase.
@@ -12,21 +14,36 @@
       We've also refactored the packages to ensure better updating and forward compatibility.
     </p>
 
-    <b-carousel controls indicators>
-      <b-carousel-slide text='TigerOS mascot, the Tiguin (portmanteau of "tiger penguin")' img-src="/img/projects/tigeros-whitebg.jpg" />
-      <b-carousel-slide text="Out-of-box experience. Designed to be familiar to users coming from Mac or Windows" img-src="/img/projects/tigeros-desktop.jpg" />
-      <b-carousel-slide text="UX Brainstorming. Did an oops with SWOT..." img-src="/img/projects/tigeros-ux-brainstorm.jpg" />
-    </b-carousel>
+    <Carousel :banners="banners" />
 
     <br />
-    <a class="btn btn-primary d-block" href="https://github.com/RITlug/TigerOS" target="_blank"><span class="fa fa-fw fa-github"></span> View on GitHub</a>
-    <a class="btn btn-primary d-block" href="https://ritlug.com/tigeros" target="_blank"><span class="fa fa-fw fa-link"></span> View Project Homepage</a>
+    <a class="button is-link is-fullwidth" href="https://github.com/RITlug/TigerOS" target="_blank"><span class="fa fa-fw fa-github"></span> View on GitHub</a>
+    <a class="button is-link is-fullwidth" href="https://ritlug.com/tigeros" target="_blank" style="margin-top:.25rem;"><span class="fa fa-fw fa-link"></span> View Project Homepage</a>
 
     <br />
     <div class="card">
-      <div class="card-body">
+      <div class="card-content">
         <p>TigerOS is a RITlug project. Code is available under GPLv3</p>
       </div>
     </div>
   </article>
 </template>
+
+<script>
+import Carousel from '~/components/Carousel.vue'
+
+export default {
+  components: {
+    Carousel
+  },
+  data() {
+    return {
+      banners: [
+        '/img/projects/tigeros-whitebg.jpg',
+        '/img/projects/tigeros-desktop.jpg',
+        '/img/projects/tigeros-ux-brainstorm.jpg',
+      ],
+    }
+  }
+}
+</script>

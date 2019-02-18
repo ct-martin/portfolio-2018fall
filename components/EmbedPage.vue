@@ -1,6 +1,9 @@
 <template>
   <div class="embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" :src="src"
+    <iframe
+      :src="src"
+      border="0"
+      class="embed-responsive-item"
       allowfullscreen="true"
       mozallowfullscreen="true"
       webkitallowfullscreen="true"

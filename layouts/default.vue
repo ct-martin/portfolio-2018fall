@@ -4,7 +4,7 @@
     <main>
       <nuxt />
     </main>
-    <footer class="container-fluid bg-dark">
+    <footer class="footer has-background-dark">
       <div class="container">
         <p>&copy; 2019 Christian Martin</p>
       </div>

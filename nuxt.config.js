@@ -26,13 +26,14 @@ module.exports = {
   /*
   ** Customize the progress-bar color
   */
-  loading: { color: '#FFFFFF' },
+  loading: { color: '#167df0' },
 
   /*
   ** Global CSS
   */
   css: [
     '@/assets/css/html5boilerplate.css',
+    'swiper/dist/css/swiper.css',
     '@/assets/css/main.css',
   ],
 
@@ -40,13 +41,15 @@ module.exports = {
   ** Plugins to load before mounting the App
   */
   plugins: [
+    { src: '~/plugins/nuxt-swiper-plugin.js', ssr: false },
   ],
 
   /*
   ** Nuxt.js modules
   */
   modules: [
-    'bootstrap-vue/nuxt',
+    //'bootstrap-vue/nuxt',
+    ['nuxt-buefy', { materialDesignIcons: false }],
   ],
 
   /*

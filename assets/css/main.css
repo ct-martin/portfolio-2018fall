@@ -1,7 +1,6 @@
 /* Custom CSS */
 
 /* Imports */
-/* @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i|Source+Code+Pro:300|Montserrat:300'); */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,600,600i|Source+Code+Pro:300');
 
 /* sticky footer - https://css-tricks.com/couple-takes-sticky-footer/ */
@@ -21,12 +20,9 @@ footer {
 
 /* Design changes */
 body {
-	font-family: 'Open Sans'; /* Fallback on Bootstrap */
+	font-family: 'Open Sans'; /* Fallback on Buefy/Bulma */
 }
-/* h1, h2, h3, h4, h5, h6 {
-	font-family: 'Montserrat';
-} */
-body, small, h2, h3, h4, h5, h6 {
+body, small, h2, h3, h4, h5, h6, .title:not(h1) {
 	font-weight: 300;
 }
 h1, b, strong, .font-weight-bold {
@@ -36,15 +32,42 @@ tt, code, kbd, samp, pre {
 	font-family: 'Source Code Pro';
 	font-weight: 300;
 }
-/* body {
-    background-color: steelblue;
-} */
 
 /* Functional changes */
 body {
-    padding-top: 75px; /* 60px for nav + 15px padding */
+    padding-top: 3.25rem; /* from Bulma's .has-navbar-fixed-top  */
+}
+main>article {
+  /* Based on typical page structure/use */
+  padding-top: 1em;
+}
+/* Copied from Bootstrap under the MIT license */
+/* https://getbootstrap.com/docs/4.3/utilities/embed/ */
+.embed-responsive {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
+}
+.embed-responsive-16by9::before {
+    padding-top: 56.25%;
+}
+.embed-responsive::before {
+    display: block;
+    content: "";
+}
+.embed-responsive .embed-responsive-item, .embed-responsive embed, .embed-responsive iframe, .embed-responsive object, .embed-responsive video {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
 }
 
+/* Aesthetic changes */
 nav.navbar {
 	background-color: white;
 	border-bottom: 1px solid lightgrey;
@@ -54,116 +77,17 @@ nav.navbar {
     padding-left: .5rem;
 }
 
-footer {
+.footer {
 	color: white;
 	padding-top: 1rem;
 	padding-bottom: 1rem;
 	margin-top: 1.2rem;
 }
-footer p {
+.footer p {
 	margin-bottom: 0;
 }
 
-/* Bootstrap's <blockquote>s are really hard to differentiate,
-	add a bar to the left side */
-blockquote.blockquote-fix {
-	border-left: 4px solid lightgray;
-	padding-left: 6px;
-}
-/* Bootstrap's carousel controls do not show up against a white image,
-	add some shadow (note: already has opacity 0.5). */
-.carousel-control-next, .carousel-control-prev/*, .carousel-caption*/ {
-  top: initial;
-  padding: 15px;
-  width: initial;
-	/*text-shadow:
-		1px 1px 0px black,
-		-1px 1px 0px black,
-		1px -1px 0px black,
-		-1px -1px 0px black;*/
-}
-.carousel-indicators {
-  bottom: -5px;
-}
-.carousel-indicators li {
-	box-shadow: 0 0 1px black;
-	background-color: rgba(191,191,191,.5);
-}
-.carousel-caption {
-	background-color: rgba(0,0,0,.4);
-	/*color: rgba(255,255,255,.9);*/
-  text-align: left;
-  left: 0;
-  right: 0;
-  bottom: 0;
-	padding: 5px 10px 15px 55px;
-  min-height: 50px;
-}
-.carousel-caption p {
-  margin-bottom: 0;
-}
-/* Some tweaks for card images */
-.card-img-top-tweaks {
-	width: auto;
-	margin: 5% auto;
-	max-height: 200px;
-}
-/* Allow buttons to wrap */
-.btn {
-	white-space: normal;
-}
-
-/* General tweaks for how things are typically used */
-article>a.btn.d-block {
-  margin-bottom: 0.6em;
-}
-article>a.btn.d-block:last-of-type {
-  margin-bottom: 0;
-}
-.card-body>p:only-child {
-  margin-bottom: 0;
-}
-
-/* General custom / FX */
-/*.navbar-brand:hover {
-  text-shadow: 2px 2px 1px rgba(0,0,0,0.2);
-}*/
-
-/* Home page custom */
-#heroCards a {
-  color: rgba(0,0,0,0.9);
-}
-#heroCards a:hover {
-  text-decoration: none;
-}
-#homeCards .card {
-  margin-bottom: 1.2em;
-}
-#homeCards .card-title {
-  margin-bottom: 0;
-}
-#homeCards .list-group {
-   margin: 0 0.2em 0.2em 0.2em;
-}
-#homeCards .list-group-item {
-  border: 0;
-}
-
-/* Trick for right chevrons on list group items */
-.list-group-item .fa {
-  margin-right: 0.25em;
-}
-.list-group-item.d-flex>div~span.fa {
-  margin-left: 5px;
-  margin-right: 0;
-}
-
-/* About page custom */
-#skills~.row .card-title {
-  margin-bottom: 0;
-}
-
-/* Resume formatting */
+/* Resume formatting (currently unused) */
 p.indented {
 	text-indent: 3em;
 	line-height: 1.15;

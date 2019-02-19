@@ -1,7 +1,7 @@
 <template>
   <article class="container">
     <div class="print-hidden">
-      <h1 class="title">About</h1>
+      <h1 class="title">About <nuxt-link to="/resume" class="button is-danger" style="float:right;">PDF</nuxt-link></h1>
 
       <p>Full Stack Developer, Creative Technologist, Computing Generalist; Studying New Media Interactive Development at Rochester Institute of Technology.</p>
 
@@ -103,37 +103,11 @@
         </div>
       </div>
     </div>
-
     <div class="print-only">
-      <h1 class="title">Christian Martin</h1>
-      <div class="panel">
-        <div class="panel-block">
-          <span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-github"></span></span>
-          Portfolio: https://ctmartin.me
-        </div>
-        <div class="panel-block">
-          <span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-github"></span></span>
-          GitHub: github.com/ct-martin
-        </div>
-        <!--sse-->
-          <div class="panel-block">
-            <span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-envelope"></span></span>
-            Email: hello@ctmartin.me
-          </div>
-          <div class="panel-block">
-            <span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-linkedin-square"></span></span>
-            <span>LinkedIn: linkedin.com/in/ct-martin</span>
-          </div>
-          <div class="panel-block">
-            <span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-handshake-o"></span></span>
-            Handshake: rit.joinhandshake.com/users/6938294
-          </div>
-        <!--/sse-->
-      </div>
-
-      <p>Full Stack Developer, Creative Technologist, Computing Generalist; Studying New Media Interactive Development at Rochester Institute of Technology.</p>
-
-
+      <h1>
+        There's a page with a PDF copy of this page linked at the top right in red.
+        Please print that instead, this page doesn't print well.
+      </h1>
     </div>
   </article>
 </template>

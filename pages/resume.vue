@@ -1,6 +1,6 @@
 <template>
   <article class="container">
-  <PDFViewer src="/resume.pdf" />
+  <PDFViewer src="https://new.ctmartin.me/resume.pdf" />
   </article>
 </template>
 

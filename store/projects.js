@@ -52,6 +52,20 @@ const createStore = {
         icon: 'fa-question-circle',
       },
       {
+        name: '[NYI] Bokeh?',
+        url: '/',
+        description: 'Coming soon',
+        tags: ['home-design-ux'],
+        icon: 'fa-question-circle',
+      },
+      {
+        name: '[NYI] Portfolio Site',
+        url: '/',
+        description: 'Coming soon',
+        tags: ['home-web'],
+        icon: 'fa-question-circle',
+      },
+      {
         name: '[NYI] StartPage',
         url: '/',
         description: 'Coming soon',
@@ -66,17 +80,17 @@ const createStore = {
         icon: 'fa-question-circle',
       },
       {
-        name: '[NYI] Article: GitLab CI (Secure CI/CD pipeline)',
+        name: '[NYI] Article: Building a secure CI/CD pipeline',
         url: '/',
         description: 'Coming soon',
         tags: ['home-cloud'],
         icon: 'fa-question-circle',
       },
       {
-        name: '[NYI] TBD',
+        name: '[NYI] Talk: Intro to The Cloud & Cloud Security',
         url: '/',
         description: 'Coming soon',
-        tags: ['home-web', 'home-design-ux', 'home-more'],
+        tags: ['home-cloud'],
         icon: 'fa-question-circle',
       },
     ].filter(item => !item.disabled).map(item => {

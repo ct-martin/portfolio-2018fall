@@ -11,7 +11,7 @@ const createStore = {
         name: 'Problems of running production software at small scale',
         url: 'https://blog.ctmartin.me/2019/01/problems-of-running-production-software-at-small-scale/',
         description: 'Running the same technology that is used for production systems is not always a viable option and why this is a challenge, particularly as a student.',
-        tags: ['cloud', 'home-cloud']
+        tags: ['cloud', 'home-more']
       },
       {
         name: 'Secure cookies behind multiple proxies',

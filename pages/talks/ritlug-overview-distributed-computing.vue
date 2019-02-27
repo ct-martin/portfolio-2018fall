@@ -1,8 +1,13 @@
 <template>
   <article class="container">
-    <h1 class="title">Overview of Distributed Computing <small>(Talk, RITlug)</small></h1>
+    <nav class="breadcrumb is-large" aria-label="breadcrumbs">
+      <ul>
+        <li><nuxt-link to="/talks">Talks</nuxt-link></li>
+        <li class="is-active has-text-weight-bold"><nuxt-link to="/talks/ritlug-overview-distributed-computing" aria-current="page">Overview of Distributed Computing</nuxt-link> <p class="subtitle">(Talk, RITlug)</p></li>
+      </ul>
+    </nav>
 
-    <p>An overview of distributed computing, such as virtualization and containers, how we use them, and why.</p>
+    <p class="content">An overview of distributed computing, such as virtualization and containers, how we use them, and why.</p>
     <PDFViewer src="https://ritlug.com/talks/slides/2017-w10-fall-overview-of-distributed-computing.pdf" />
     <br />
     <a href="https://ritlug.com/talks/2017/11/03/overview-distributed-computing.html" target="_blank" class="button is-link is-fullwidth">RITlug's Talk Page</a>

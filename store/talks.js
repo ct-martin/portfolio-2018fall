@@ -1,13 +1,13 @@
 const createStore = {
   state: {
     list: [
-      /*{
+      {
         name: 'Intro to The Cloud & Cloud Security',
         url: '/talks/ritlug-intro-cloud-cloud-security',
         subtitle: 'Talk @ RITlug',
         description: 'Learn about the layers that make up "The Cloud" & the security concerns at each of those layers.',
-        tags: ['ritlug', 'talk', 'cloud']
-      },*/
+        tags: ['ritlug', 'talk', 'cloud', 'home-cloud']
+      },
       {
         name: 'Trust in the Internet Age',
         url: '/talks/stv-internet-trust',

@@ -4,7 +4,7 @@ const createStore = {
       {
         name: '[NYI] Battleship',
         url: '/',
-        description: 'Experience & proof of concept in synchonizing clients',
+        description: 'UX study, experience & proof of concept in synchonizing clients',
         tags: ['design-ux', 'web', 'home-hero'],
         icon: 'fa-code',
       },
@@ -18,7 +18,7 @@ const createStore = {
       {
         name: 'Home Lab',
         url: '/projects/home-lab',
-        description: 'Personal SMB-grade infrastructure, inc. intranet & firewall',
+        description: 'SMB-grade infrastructure for testing systems & integration of enterprise technologies',
         tags: ['cloud','home-hero'],
         icon: 'fa-server',
       },

@@ -3,7 +3,7 @@
     <div class="print-hidden">
       <h1 class="title">About <nuxt-link to="/resume" class="button is-danger">Resume PDF</nuxt-link></h1>
 
-      <p>Full Stack Developer, Creative Technologist, Computing Generalist; Studying New Media Interactive Development at Rochester Institute of Technology.</p>
+      <p>Front-End Developer, Full Stack Engineer, Creative Technologist, Computing Generalist; Studying New Media Interactive Development at Rochester Institute of Technology.</p>
 
       <h2 class="title" style="margin-bottom:.25em;margin-top:.5em;">Contact Info</h2>
       <div class="panel">

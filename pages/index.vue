@@ -7,7 +7,7 @@
           Christian Martin
         </h1>
         <h2 class="subtitle">
-          Full Stack Developer, Creative Technologist, Computing Generalist; Studying New Media Interactive Development at Rochester Institute of Technology.
+          Front-End Developer, Full Stack Engineer, Creative Technologist, Computing Generalist; Studying New Media Interactive Development at Rochester Institute of Technology.
         </h2>
       </div>
     </div>

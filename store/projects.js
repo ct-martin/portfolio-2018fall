@@ -49,7 +49,7 @@ const createStore = {
         url: '/projects/arduino-macros',
         description: 'Taking complex keyboard shortcuts to just a button press',
         tags: ['home-design-ux'],
-        icon: 'fa-question-circle',
+        icon: 'fa-keyboard-o',
       },
       {
         name: 'Web Audio Visualizer',

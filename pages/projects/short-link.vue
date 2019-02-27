@@ -1,9 +1,16 @@
 <template>
   <article class="container">
-    <h1>Short-Link</h1>
+    <nav class="breadcrumb is-large" aria-label="breadcrumbs">
+      <ul>
+        <li><nuxt-link to="/projects">Projects</nuxt-link></li>
+        <li class="is-active has-text-weight-bold"><nuxt-link to="/projects/short-link" aria-current="page">Short-Link</nuxt-link></li>
+      </ul>
+    </nav>
+    
     <p>URL link shortener, similar to bit.ly, etc. Supports tracking of clicks, including geolocation (if behind Cloudflare), referrer, & user agent.</p>
     <p>Frontend built using <strong>React</strong> &amp; Semantic UI. Backend is mostly <strong>Node.js</strong> &amp; MongoDB. Heroku &amp; Dokku are supported for deployment.</p>
 
+    <br />
     <Carousel :banners="banners" />
 
     <br />

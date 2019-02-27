@@ -1,6 +1,11 @@
 <template>
   <article class="container">
-    <h1 class="title">TigerOS <small>Project Lead</small></h1>
+    <nav class="breadcrumb is-large" aria-label="breadcrumbs">
+      <ul>
+        <li><nuxt-link to="/projects">Projects</nuxt-link></li>
+        <li class="is-active has-text-weight-bold"><nuxt-link to="/projects/tigeros" aria-current="page">TigerOS</nuxt-link> <p class="subtitle">Project Lead</p></li>
+      </ul>
+    </nav>
 
     <blockquote class="blockquote blockquote-fix">
       Fedora Remix maintained by the Rochester Institute of Technology (RIT) Linux Users Group, targeted at users new to Linux and RIT students, faculty, and staff
@@ -14,6 +19,7 @@
       We've also refactored the packages to ensure better updating and forward compatibility.
     </p>
 
+    <br />
     <Carousel :banners="banners" />
 
     <br />

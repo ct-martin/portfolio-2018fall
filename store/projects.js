@@ -66,11 +66,11 @@ const createStore = {
         icon: 'fa-code',
       },
       {
-        name: '[NYI] StartPage',
-        url: '/',
-        description: 'Coming soon',
+        name: 'StartPage',
+        url: '/projects/startpage',
+        description: 'A simple page to read the news and weather, using the geolocation API & local storage caching.',
         tags: ['home-web'],
-        icon: 'fa-question-circle',
+        icon: 'fa-code',
       },
     ].filter(item => !item.disabled).map(item => {
       const listitem = item;

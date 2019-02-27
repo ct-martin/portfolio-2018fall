@@ -2,6 +2,18 @@ const createStore = {
   state: {
     list: [
       {
+        name: 'Bundling JS with Webpack & Babel',
+        url: 'https://blog.ctmartin.me/2019/02/bundling-js-with-webpack-babel/',
+        description: 'Retroactively adding Webpack & Babel to a Node.js project.',
+        tags: ['home-web'],
+      },
+      {
+        name: 'CI/CD with GitLab',
+        url: 'https://blog.ctmartin.me/2019/02/ci-cd-with-gitlab/',
+        description: 'Setting up a staging environment, automated testing (inc. security & compliance tests), and automated deployment.',
+        tags: ['home-cloud'],
+      },
+      {
         name: 'The apartment life of securing data',
         url: 'https://blog.ctmartin.me/2019/01/the-apartment-life-of-securing-data/',
         description: 'Having enough data to want to secure it, but no permanent, secure location makes for interesting data management challenges.',

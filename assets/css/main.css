@@ -22,7 +22,7 @@ footer {
 body {
 	font-family: 'Open Sans'; /* Fallback on Buefy/Bulma */
 }
-body, small, h2, h3, h4, h5, h6, .title:not(h1) {
+body, small, h2, h3, h4, h5, h6, .title:not(h1), .content h2, .content h3, .content h4, .content h5, .content h6 {
 	font-weight: 300;
 }
 h1, b, strong, .font-weight-bold {
@@ -37,7 +37,10 @@ tt, code, kbd, samp, pre {
 body {
     padding-top: 3.25rem; /* from Bulma's .has-navbar-fixed-top  */
 }
-main>article {
+main {
+  margin: 0 1em;
+}
+main>article, main>div {
   /* Based on typical page structure/use */
   padding-top: 1em;
 }

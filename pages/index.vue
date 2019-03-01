@@ -33,8 +33,8 @@
     <div class="columns is-multiline">
       <div class="column is-6-tablet">
         <div class="box has-background-primary">
-          <h3 class="title has-text-white">Design &amp; Interactivity</h3>
-          <custom-list-group source="content" tag="home-design-ux" />
+          <h3 class="title has-text-white">Web</h3>
+          <custom-list-group source="content" tag="home-web" />
         </div>
       </div>
       <div class="column is-6-tablet">
@@ -45,8 +45,8 @@
       </div>
       <div class="column is-6-tablet">
         <div class="box has-background-dark">
-          <h3 class="title has-text-white">Web</h3>
-          <custom-list-group source="content" tag="home-web" />
+          <h3 class="title has-text-white">Design &amp; Interactivity</h3>
+          <custom-list-group source="content" tag="home-design-ux" />
         </div>
       </div>
       <div class="column is-6-tablet">

@@ -2,8 +2,8 @@ const createStore = {
   state: {
     list: [
       {
-        name: '[NYI] Battleship',
-        url: '/',
+        name: 'Battleship',
+        url: '/projects/battleship',
         description: 'UX study, experience & proof of concept in synchonizing clients',
         tags: ['design-ux', 'web', 'home-hero'],
         icon: 'fa-code',

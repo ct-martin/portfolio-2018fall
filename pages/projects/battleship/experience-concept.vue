@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2 class="title">Introduction</h2>
+    <h2 class="title">Experience Concept</h2>
 
     <p>
       As previously discussed, I’m building an experience surrounding the dual-touchscreen laptops I have.

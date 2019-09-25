@@ -54,6 +54,13 @@ module.exports = {
   ],
 
   /*
+  ** CI generate configuration
+  */
+ generate: {
+   dir: 'public'
+ },
+
+  /*
   ** Build configuration
   */
   build: {

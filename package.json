@@ -5,10 +5,11 @@
   "author": "CTMartin",
   "private": true,
   "scripts": {
+    "build": "nuxt build",
     "dev": "nuxt",
     "generate": "nuxt generate",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore ./",
-    "deploy": "nuxt generate && push-dir --dir=dist --branch=gh-pages --remote=ssh --cleanup --force"
+    "deploy": "nuxt build && push-dir --dir=dist --branch=gh-pages --remote=ssh --cleanup --force"
   },
   "engines": {
     "node": "10.11.x",

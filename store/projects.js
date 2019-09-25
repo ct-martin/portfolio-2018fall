@@ -3,7 +3,7 @@ export const state = () => ({
     {
       name: 'Short-Link',
       url: '/projects/short-link',
-      description: 'Node.js & React URL Shortener',
+      description: 'Node.js & React URL Shortener with analytics tracking and charts',
       tags: ['web', 'home-hero'],
       icon: 'fa-code',
     },

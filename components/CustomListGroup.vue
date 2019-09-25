@@ -10,7 +10,7 @@ import CustomListGroupItem from '~/components/CustomListGroupItem.vue'
 // 'source' is required
 // 'tag' is optional, uses AND logic (all tags required)
 export default {
-  props: ['source', 'tag'],
+  props: ['count', 'source', 'tag'],
   components: {
     CustomListGroupItem
   },
@@ -26,7 +26,7 @@ export default {
         );
       }
 
-      return store.slice(0,3);
+      return this.count ? store.slice(0, this.count) : store;
     }
   }
 }

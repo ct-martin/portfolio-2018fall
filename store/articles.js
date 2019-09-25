@@ -4,13 +4,13 @@ export const state = () => ({
       name: 'Bundling JS with Webpack & Babel',
       url: 'https://blog.ctmartin.me/2019/02/bundling-js-with-webpack-babel/',
       description: 'Retroactively adding Webpack & Babel to a Node.js project.',
-      tags: ['home-web'],
+      tags: ['home-more'],
     },
     {
       name: 'CI/CD with GitLab',
       url: 'https://blog.ctmartin.me/2019/02/ci-cd-with-gitlab/',
       description: 'Setting up a staging environment, automated testing (inc. security & compliance tests), and automated deployment.',
-      tags: ['home-cloud'],
+      tags: ['home-more'],
     },
     {
       name: 'The apartment life of securing data',
@@ -22,13 +22,13 @@ export const state = () => ({
       name: 'Problems of running production software at small scale',
       url: 'https://blog.ctmartin.me/2019/01/problems-of-running-production-software-at-small-scale/',
       description: 'Running the same technology that is used for production systems is not always a viable option and why this is a challenge, particularly as a student.',
-      tags: ['cloud', 'home-more']
+      tags: ['cloud']
     },
     {
       name: 'Secure cookies behind multiple proxies',
       url: 'https://blog.ctmartin.me/2019/01/secure-cookies-behind-multiple-proxies/',
       description: 'What I learned while implementing Secure cookies on a project.',
-      tags: ['cloud', 'home-cloud']
+      tags: ['cloud', 'home-more']
     },
     {
       name: 'Identifying how broken the Matrix bridge is',
@@ -52,7 +52,7 @@ export const state = () => ({
       name: 'FOSSing Gmail',
       url: 'https://blog.ctmartin.me/2018/02/fossing-gmail/',
       description: 'Gmail\'s AI isn\'t very accessible in a FOSS-friendly way... but with a little effort, we can make it work.',
-      tags: ['foss', 'home-more']
+      tags: ['foss']
     }
   ].map(item => {
     const listitem = item;

@@ -3,7 +3,11 @@
     <div class="print-hidden">
       <h1 class="title">About <nuxt-link to="/resume" class="button is-danger">Resume PDF</nuxt-link></h1>
 
-      <p>Front-End Developer, Full Stack Engineer, Creative Technologist, Computing Generalist; Studying New Media Interactive Development at Rochester Institute of Technology.</p>
+      <p>
+        Front-End Developer, Interactive Developer
+        <br />
+        Studying New Media Interactive Development &amp; Museum Studies at Rochester Institute of Technology
+      </p>
 
       <h2 class="title" style="margin-bottom:.25em;margin-top:.5em;">Contact Info</h2>
       <div class="panel">
@@ -36,19 +40,17 @@
         <div class="column">
           <div class="card" style="margin-top: .75rem;">
             <div class="card-content">
-              <h4 class="subtitle">Languages</h4>
+              <h4 class="subtitle">Programming</h4>
             </div>
             <div class="panel">
-              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-code"></span></span> C#</div>
-              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-css3"></span></span> CSS3</div>
-              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-html5"></span></span> HTML5</div>
-              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-code"></span></span> Java</div>
-              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-code"></span></span> <span><strong>JavaScript</strong> (inc. Node.JS)</span></div>
-              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-cloud"></span></span> <strong>PHP</strong></div>
-              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-code"></span></span> <strong>Processing</strong></div>
-              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-code"></span></span> Python</div>
-              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-code"></span></span> React</div>
-              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-code"></span></span> Vue</div>
+              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-code"></span></span> <strong>Angular</strong></div>
+              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-code"></span></span> <strong>Node.js</strong></div>
+              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-code"></span></span> <strong>JavaScript</strong></div>
+              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-cloud"></span></span> PHP</div>
+              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-code"></span></span> <strong>React</strong></div>
+              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-code"></span></span> <strong>SASS/SCSS</strong></div>
+              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-code"></span></span> <strong>TypeScript</strong></div>
+              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-code"></span></span> <strong>Vue</strong></div>
             </div>
           </div>
         </div>
@@ -58,15 +60,13 @@
               <h4 class="subtitle">Technologies</h4>
             </div>
             <div class="panel">
-              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-cloud"></span></span> <strong>Apache</strong></div>
-              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-tasks"></span></span> Continuous Integration (CI)</div>
+              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-cloud"></span></span> Apache</div>
+              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-tasks"></span></span> <strong>Continuous Integration (CI)</strong></div>
               <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-code-fork"></span></span> <span><strong>Git</strong>, inc. GitHub &amp; GitLab</span></div>
-              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-cloud"></span></span> HAProxy</div>
-              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-database"></span></span> MariaDB/<strong>MySQL</strong></div>
+              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-database"></span></span> MariaDB/MySQL</div>
               <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-database"></span></span> MongoDB</div>
-              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-cloud"></span></span> <strong>Nginx</strong></div>
+              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-cloud"></span></span> Nginx</div>
               <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-database"></span></span> Redis</div>
-              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-cloud"></span></span> Software-Defined Networking</div>
             </div>
           </div>
         </div>
@@ -76,10 +76,9 @@
               <h4 class="subtitle">Platforms</h4>
             </div>
             <div class="panel">
-              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-cloud"></span></span> Cloudflare</div>
               <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-cloud"></span></span> <strong>Docker</strong></div>
-              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-cloud"></span></span> Heroku</div>
-              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-linux"></span></span> <span><strong>Linux</strong>; CentOS, Debian, Fedora, Ubuntu</span></div>
+              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-cloud"></span></span> <strong>Heroku</strong></div>
+              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-linux"></span></span> <span><strong>Linux</strong> (Debian &amp; RedHat families)</span></div>
               <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-cloud"></span></span> <span><strong>Virtualization</strong> (QEMU/KVM-based, ESXi)</span></div>
             </div>
           </div>
@@ -87,17 +86,16 @@
         <div class="column">
           <div class="card" style="margin-top: .75rem;">
             <div class="card-content">
-              <h4 class="subtitle">Design</h4>
+              <h4 class="subtitle">Other</h4>
             </div>
             <div class="panel">
-              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-file-image-o"></span></span> Adobe Illustrator</div>
-              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-file-image-o"></span></span> Adobe Photoshop</div>
-              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-file-image-o"></span></span> Adobe XD</div>
-              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-cloud"></span></span> MVC</div>
-              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-cloud"></span></span> <span><strong>Responsive</strong> &amp; <strong>Mobile-First</strong> Design</span></div>
+              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-code"></span></span> C#</div>
+              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-code"></span></span> Python</div>
+              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-code"></span></span> Java</div>
+              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-cloud"></span></span> Networking</div>
+              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-cloud"></span></span> Systems Administration</div>
               <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-gamepad"></span></span> Unity</div>
               <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-gamepad"></span></span> Unreal Engine</div>
-              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-wordpress"></span></span> WordPress</div>
             </div>
           </div>
         </div>
@@ -105,8 +103,7 @@
     </div>
     <div class="print-only">
       <h1>
-        There's a page with a PDF copy of this page linked at the top right in red.
-        Please print that instead, this page doesn't print well.
+        There's a page with a PDF copy of this page linked at the top right in red; this page doesn't print well.
       </h1>
     </div>
   </article>

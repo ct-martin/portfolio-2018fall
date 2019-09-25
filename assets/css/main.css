@@ -47,6 +47,13 @@ main>article, main>div {
 main .hero {
   margin: -1em -1em 0 -1em;
 }
+.card .panel-block {
+  border-left: none;
+  border-right: none;
+}
+.card .panel-block:last-child {
+  border-bottom: none;
+}
 .print-only {
   display: none;
 }

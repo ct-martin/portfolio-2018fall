@@ -44,6 +44,9 @@ main>article, main>div {
   /* Based on typical page structure/use */
   padding-top: 1em;
 }
+main .hero {
+  margin: -1em -1em 0 -1em;
+}
 .print-only {
   display: none;
 }

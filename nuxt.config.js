@@ -1,4 +1,4 @@
-const pkg = require('./package')
+import pkg from './package';
 
 module.exports = {
   mode: 'spa',
@@ -20,7 +20,7 @@ module.exports = {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/fork-awesome@1.1.5/css/fork-awesome.min.css', integrity: 'sha256-P64qV9gULPHiZTdrS1nM59toStkgjM0dsf5mK/UwBV4=', crossorigin: 'anonymous'}
+      { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css', integrity: 'sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=', crossorigin: 'anonymous'}
     ]
   },
 
@@ -58,25 +58,5 @@ module.exports = {
   */
  generate: {
    dir: 'public'
- },
-
-  /*
-  ** Build configuration
-  */
-  build: {
-    /*
-    ** You can extend webpack config here
-    */
-    extend(config, ctx) {
-      // Run ESLint on save
-      if (ctx.isDev && ctx.isClient) {
-        config.module.rules.push({
-          enforce: 'pre',
-          test: /\.(js|vue)$/,
-          loader: 'eslint-loader',
-          exclude: /(node_modules)/
-        })
-      }
-    }
-  }
+ }
 }

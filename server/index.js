@@ -1,6 +1,6 @@
 
-const express = require('express');
-const { Nuxt, Builder } = require('nuxt');
+import * as express from 'express';
+import { Nuxt, Builder } from 'nuxt';
 const app = express();
 const port = process.env.PORT || 3000;
 
@@ -12,7 +12,7 @@ if(process.env.REDIS_URL) {
 app.set('port', port);
 
 // Import and Set Nuxt.js options
-let config = require('../nuxt.config.js');
+import * as config from '../nuxt.config.js';
 config.dev = !(process.env.NODE_ENV === 'production');
 
 async function start() {

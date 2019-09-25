@@ -1,10 +1,9 @@
 <template>
   <article class="container">
-    <p class="content">For print options click the arrow icon on the top-right of the viewer</p>
     <PDFViewer src="https://ctmartin.dev/resume.pdf" />
 
     <br />
-    <a class="button is-link is-fullwidth" href="/resume.pdf" target="_blank"><span class="fa fa-fw fa-file-pdf-o"></span> Download</a>
+    <a class="button is-info is-fullwidth" href="/resume.pdf" target="_blank"><span class="fa fa-fw fa-file-pdf-o"></span> Download</a>
   </article>
 </template>
 

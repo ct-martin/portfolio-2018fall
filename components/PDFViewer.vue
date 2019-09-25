@@ -14,7 +14,7 @@ export default {
     srcFull() {
       // Google Drive Viewer: `https://docs.google.com/gview?url=${this.src}&embedded=true`
       // PDF.js: `https://mozilla.github.io/pdf.js/web/viewer.html?file=${this.src}`
-      return `https://docs.google.com/gview?url=${this.src}&embedded=true`;
+      return `https://mozilla.github.io/pdf.js/web/viewer.html?file=${this.src}`;
     }
   }
 }

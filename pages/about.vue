@@ -1,7 +1,7 @@
 <template>
   <article class="container">
     <div class="print-hidden">
-      <h1 class="title">About <nuxt-link to="/resume" class="button is-danger">Resume PDF</nuxt-link></h1>
+      <h1 class="title">About <nuxt-link to="/resume" class="button is-danger"><span aria-hidden="true" class="fa fa-fw fa-file-pdf-o"></span>&nbsp;Resume</nuxt-link></h1>
 
       <p>
         Front-End Developer, Interactive Developer

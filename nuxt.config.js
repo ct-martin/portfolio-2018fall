@@ -21,9 +21,6 @@ module.exports = {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/fork-awesome@1.1.5/css/fork-awesome.min.css', integrity: 'sha256-P64qV9gULPHiZTdrS1nM59toStkgjM0dsf5mK/UwBV4=', crossorigin: 'anonymous'}
-    ],
-    scripts: [
-      { src: 'https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.js', integrity: 'sha256-ji09tECORKvr8xB9iCl8DJ8iNMLriDchC1+p+yt1hSs=', crossorigin: 'anonymous' }
     ]
   },
 

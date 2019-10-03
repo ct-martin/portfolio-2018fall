@@ -57,6 +57,7 @@ module.exports = {
   ** CI generate configuration
   */
  generate: {
-   dir: 'public'
+   dir: 'public',
+   fallback: true
  }
 }

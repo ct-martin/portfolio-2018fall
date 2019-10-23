@@ -1,8 +1,6 @@
 import pkg from './package';
 
 module.exports = {
-  mode: 'spa',
-
   /*
   ** Headers of the page
   */
@@ -20,7 +18,8 @@ module.exports = {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css', integrity: 'sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=', crossorigin: 'anonymous'}
+      { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css', integrity: 'sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=', crossorigin: 'anonymous'},
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Open+Sans:300,300i,600,600i|Source+Code+Pro:300&display=swap' }
     ]
   },
 
@@ -56,8 +55,12 @@ module.exports = {
   /*
   ** CI generate configuration
   */
- generate: {
-   dir: 'public',
-   fallback: true
- }
+  build: {
+    extractCSS: true,
+    ssr: true
+  },
+  generate: {
+    dir: 'public',
+    fallback: true
+  }
 }

@@ -1,8 +1,5 @@
 /* Custom CSS */
 
-/* Imports */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,600,600i|Source+Code+Pro:300');
-
 /* sticky footer - https://css-tricks.com/couple-takes-sticky-footer/ */
 html, body, #__nuxt, #__layout, #__layout>div {
     height: 100%;
@@ -20,7 +17,7 @@ footer {
 
 /* Design changes */
 body {
-	font-family: 'Open Sans'; /* Fallback on Buefy/Bulma */
+	font-family: 'Open Sans', sans-serif;
 }
 body, small, h2, h3, h4, h5, h6, .title:not(h1), .content h2, .content h3, .content h4, .content h5, .content h6 {
 	font-weight: 300;

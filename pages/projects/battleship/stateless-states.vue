@@ -78,7 +78,7 @@ socket.on('ingame', cb2 =>
       When you’re querying a lot of variables, you very quickly get into callback hell, regardless of which you use.
       Using Multi-exec or <code>Promise.all()</code> also don’t work since I need to get the values of all the queried keys.
       Finally, there are some differences between node_redis and the Redis spec for how some commands are handled, and these are not documented.
-      For example, the <a href="https://redis.io/commands/lindex" target="_blank">Redis docs say for LINDEX</a>, “When the value at key is not a list, an error is returned.”
+      For example, the <a href="https://redis.io/commands/lindex" target="_blank" rel="noopener">Redis docs say for LINDEX</a>, “When the value at key is not a list, an error is returned.”
       However, node_redis returns no error, but rather NULL for the return value.
       It something that a debug log can tell you, but these undocumented differences makes debugging a lot longer and are an unneeded hassle.
     </p>

@@ -13,7 +13,7 @@
       <li>Technologies used: Node.js, Websockets, p5.js (canvas), Redis</li>
     </ul>
 
-    <a class="button is-link is-fullwidth" href="https://github.com/ct-martin/Battleship" target="_blank"><span class="fa fa-fw fa-github"></span> View on GitHub</a>
+    <a class="button is-link is-fullwidth" href="https://github.com/ct-martin/Battleship" target="_blank" rel="noopener"><span class="fa fa-fw fa-github"></span> View on GitHub</a>
     <br />
 
     <p>

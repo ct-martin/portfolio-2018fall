@@ -3,8 +3,8 @@
     <h2 class="title">Networking &amp; Firewall</h2>
 
     <p>
-      I'm using <a href="https://www.pfsense.org/" target="_blank">pfSense</a> as a router.
-      pfSense has a lot of features as well as <a href="https://docs.netgate.com/pfsense/en/latest/virtualization/virtualizing-pfsense-with-proxmox.html" target="_blank">official documentation for running on Proxmox</a>.
+      I'm using <a href="https://www.pfsense.org/" target="_blank" rel="noopener">pfSense</a> as a router.
+      pfSense has a lot of features as well as <a href="https://docs.netgate.com/pfsense/en/latest/virtualization/virtualizing-pfsense-with-proxmox.html" target="_blank" rel="noopener">official documentation for running on Proxmox</a>.
     </p>
 
     <p>pfSense gives me a lot of features:</p>
@@ -28,14 +28,14 @@
 
     <h3 class="">Security</h3>
     <p>
-      I go between <a href="https://1.1.1.1/" target="_blank">Cloudflare's 1.1.1.1</a> and <a href="https://quad9.net/" target="_blank">Quad9's</a> DNS servers.
+      I go between <a href="https://1.1.1.1/" target="_blank" rel="noopener">Cloudflare's 1.1.1.1</a> and <a href="https://quad9.net/" target="_blank" rel="noopener">Quad9's</a> DNS servers.
       I like Cloudflare's privacy features, but Quad9 helps block malicious domains.
       Both support DNSSEC &amp; DNS over TLS, which help ensure DNS integrity.
     </p>
 
     <p>
       For security I use a variety of IP &amp; DNS blacklists.
-      The main IP blacklists are from SpamHaus and most of the DNS blacklists are link to by the <a href="https://github.com/pi-hole/pi-hole/" target="_blank">Pi-hole</a> project.
+      The main IP blacklists are from SpamHaus and most of the DNS blacklists are link to by the <a href="https://github.com/pi-hole/pi-hole/" target="_blank" rel="noopener">Pi-hole</a> project.
       Suricata runs Emerging Threats &amp; Snort rules.
       Together, these measures can block a significant variety of attacks.
     </p>

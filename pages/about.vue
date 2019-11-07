@@ -13,7 +13,7 @@
       <div class="panel">
         <div class="panel-block">
           <span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-github"></span></span>
-          <span><a href="https://github.com/ct-martin" target="_blank">GitHub: @ct-martin</a></span>
+          <span><a href="https://github.com/ct-martin" target="_blank" rel="noopener">GitHub: @ct-martin</a></span>
         </div>
         <!--sse-->
           <div class="panel-block">
@@ -22,15 +22,15 @@
           </div>
           <div class="panel-block">
             <span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-comments-o"></span></span>
-            <span>IRC: ctmartin on <a href="https://freenode.net/" target="_blank">FreeNode</a> &amp; <a href="https://matrix.org/" target="_blank">Matrix</a></span>
+            <span>IRC: ctmartin on <a href="https://freenode.net/" target="_blank" rel="noopener">FreeNode</a> &amp; <a href="https://matrix.org/" target="_blank" rel="noopener">Matrix</a></span>
           </div>
           <div class="panel-block">
             <span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-linkedin-square"></span></span>
-            <span><a href="https://www.linkedin.com/in/ct-martin/" target="_blank">LinkedIn: /in/ct-martin</a></span>
+            <span><a href="https://www.linkedin.com/in/ct-martin/" target="_blank" rel="noopener">LinkedIn: /in/ct-martin</a></span>
           </div>
           <div class="panel-block">
             <span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-handshake-o"></span></span>
-            <span><a href="https://rit.joinhandshake.com/users/6938294" target="_blank">Handshake</a></span>
+            <span><a href="https://rit.joinhandshake.com/users/6938294" target="_blank" rel="noopener">Handshake</a></span>
           </div>
         <!--/sse-->
       </div>

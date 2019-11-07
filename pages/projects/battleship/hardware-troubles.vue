@@ -62,7 +62,7 @@
     <p>
       With the second screen able to be turned on, I was now able to fix the calibration.
       I first went into the settings and moved the bottom screen to the bottom instead of the right, and also rotated it 180deg so that it was facing the correct direction.
-      Using the Arch Wiki’s <a href="https://wiki.archlinux.org/index.php/Calibrating_Touchscreen" target="_blank">Touch Calibration</a> and <a href="https://wiki.archlinux.org/index.php/Touchscreen" target="_blank">Touchscreen</a> pages, I was able to debug the remaining bit.
+      Using the Arch Wiki’s <a href="https://wiki.archlinux.org/index.php/Calibrating_Touchscreen" target="_blank" rel="noopener">Touch Calibration</a> and <a href="https://wiki.archlinux.org/index.php/Touchscreen" target="_blank" rel="noopener">Touchscreen</a> pages, I was able to debug the remaining bit.
       After messing up and being lucky that it didn’t get saved, I learned to not follow all the instructions on the page for my use case.
       I was able to use <code>xrandr</code> and <code>xinput list</code> (via a USB keyboard) to get the order of the monitors and the touch inputs, and then use the <code>xinput --map-to-output</code> commands to map the second touchscreen to the second display.
       I also had to reverse the calibration matrix (since I don’t want to scale I didn’t have to do the math).

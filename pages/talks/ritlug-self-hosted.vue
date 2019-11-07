@@ -12,8 +12,8 @@
       <p>In this workshop, we will be creating a personal server that you can easily deploy yourself at home on a Raspberry Pi or a VPS (the cloud).</p>
       <ol>
       	<li>
-      		Grab a copy of the <a href="https://www.debian.org/distrib/" target="_blank">Debian netinstall</a>.
-      		Since we're at RIT, <a href="https://mirrors.rit.edu/debian/debian-cd/current/amd64/iso-cd/" target="_blank">mirrors.rit.edu</a> is a good way to do this.
+      		Grab a copy of the <a href="https://www.debian.org/distrib/" target="_blank" rel="noopener">Debian netinstall</a>.
+      		Since we're at RIT, <a href="https://mirrors.rit.edu/debian/debian-cd/current/amd64/iso-cd/" target="_blank" rel="noopener">mirrors.rit.edu</a> is a good way to do this.
       	</li>
       	<li>
       		Create a new virtual machine in VMware Workstation (since it's on the lab machines and we don't want to spend the whole time debugging a variety
@@ -59,7 +59,7 @@
       			<li>Say hi!</li>
       			<li>You can close WeeChat with <code>/disconnect</code>, and kill tmux with <code>tmux kill-session -t irc</code></li>
       		</ol>
-      		The WeeChat Quick Start Guide <a href="https://weechat.org/files/doc/stable/weechat_quickstart.en.html" target="_blank">be found here</a>.
+      		The WeeChat Quick Start Guide <a href="https://weechat.org/files/doc/stable/weechat_quickstart.en.html" target="_blank" rel="noopener">be found here</a>.
       	</li>
       	<li>
       		Let's also set up a quick web server.
@@ -104,16 +104,16 @@
 
       <p>Resources for more things you can do on your own time (on DigitalOcean, warning: may for an older version of Debian):</p>
       <ul>
-      	<li><a href="https://www.digitalocean.com/community/tutorials/?q=debian" target="_blank">Debian Tutorials</a></li>
-      	<li><a href="https://www.digitalocean.com/community/tutorials/initial-server-setup-with-debian-8" target="_blank">"Initial Server Setup" (SSH Keys/Debian 8)</a></li>
+      	<li><a href="https://www.digitalocean.com/community/tutorials/?q=debian" target="_blank" rel="noopener">Debian Tutorials</a></li>
+      	<li><a href="https://www.digitalocean.com/community/tutorials/initial-server-setup-with-debian-8" target="_blank" rel="noopener">"Initial Server Setup" (SSH Keys/Debian 8)</a></li>
       </ul>
     </div>
 
-    <a href="http://ritlug.com/announcements/2018/01/31/homelab.html" target="_blank" class="button is-link is-fullwidth">RITlug Announcement Post</a>
+    <a href="http://ritlug.com/announcements/2018/01/31/homelab.html" target="_blank" rel="noopener" class="button is-link is-fullwidth">RITlug Announcement Post</a>
     <div class="card" style="margin-top:1rem;">
     	<div class="card-content">
     		<h4 class="card-title">License</h4>
-    		<p>This workshop is available under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0</a></p>
+    		<p>This workshop is available under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a></p>
     	</div>
     </div>
   </article>

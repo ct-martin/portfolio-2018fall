@@ -14,7 +14,7 @@
     <Carousel :banners="banners" />
 
     <br />
-    <a class="button is-link is-fullwidth" href="https://github.com/ct-martin/Short-Link" target="_blank"><span class="fa fa-fw fa-github"></span> View on GitHub</a>
+    <a class="button is-link is-fullwidth" href="https://github.com/ct-martin/Short-Link" target="_blank" rel="noopener"><span class="fa fa-fw fa-github"></span> View on GitHub</a>
   </article>
 </template>
 

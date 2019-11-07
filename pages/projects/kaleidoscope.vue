@@ -13,8 +13,8 @@
     <Carousel :banners="banners" style="background:black;"/>
 
     <br />
-    <a class="button is-link is-fullwidth" href="https://people.rit.edu/ctm2142/igme330/project2/" target="_blank"><span class="fa fa-fw fa-link"></span> Try it!</a>
-    <!--<a class="button is-link is-fullwidth" href="https://github.com/ct-martin/StartPage" target="_blank"><span class="fa fa-fw fa-github"></span> View on GitHub</a>-->
+    <a class="button is-link is-fullwidth" href="https://people.rit.edu/ctm2142/igme330/project2/" target="_blank" rel="noopener"><span class="fa fa-fw fa-link"></span> Try it!</a>
+    <!--<a class="button is-link is-fullwidth" href="https://github.com/ct-martin/StartPage" target="_blank" rel="noopener"><span class="fa fa-fw fa-github"></span> View on GitHub</a>-->
   </article>
 </template>
 

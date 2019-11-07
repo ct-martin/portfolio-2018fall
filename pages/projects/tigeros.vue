@@ -23,8 +23,8 @@
     <Carousel :banners="banners" />
 
     <br />
-    <a class="button is-link is-fullwidth" href="https://github.com/RITlug/TigerOS" target="_blank"><span class="fa fa-fw fa-github"></span> View on GitHub</a>
-    <a class="button is-link is-fullwidth" href="https://ritlug.com/tigeros" target="_blank" style="margin-top:.25rem;"><span class="fa fa-fw fa-link"></span> View Project Homepage</a>
+    <a class="button is-link is-fullwidth" href="https://github.com/RITlug/TigerOS" target="_blank" rel="noopener"><span class="fa fa-fw fa-github"></span> View on GitHub</a>
+    <a class="button is-link is-fullwidth" href="https://ritlug.com/tigeros" target="_blank" rel="noopener" style="margin-top:.25rem;"><span class="fa fa-fw fa-link"></span> View Project Homepage</a>
 
     <br />
     <div class="card">

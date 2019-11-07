@@ -9,7 +9,7 @@
 
     <p>
       The tech for this is somewhat straightforward.
-      <a href="https://p5js.org/" target="_blank">p5.js</a> is used to draw the canvas, <a href="https://socket.io/" target="_blank">socket.io</a> is used to communicate between the client & server, <a href="https://nodejs.org/en/" target="_blank">Node.js</a> is used for the server, <a href="https://expressjs.com/" target="_blank">Express.js</a> serves the client-side code, and <a href="https://redis.io/" target="_blank">Redis</a> is used to store the states.
+      <a href="https://p5js.org/" target="_blank" rel="noopener">p5.js</a> is used to draw the canvas, <a href="https://socket.io/" target="_blank" rel="noopener">socket.io</a> is used to communicate between the client & server, <a href="https://nodejs.org/en/" target="_blank" rel="noopener">Node.js</a> is used for the server, <a href="https://expressjs.com/" target="_blank" rel="noopener">Express.js</a> serves the client-side code, and <a href="https://redis.io/" target="_blank" rel="noopener">Redis</a> is used to store the states.
       Redis is sufficient for data storage since a game of Battleship is not expected to go on for a very long time like Risk or Dungeons & Dragons does.
     </p>
 

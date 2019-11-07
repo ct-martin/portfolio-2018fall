@@ -3,9 +3,9 @@
     <h2 class="title">Git, CI, &amp; CD</h2>
 
     <p>
-      I'm currently using <a href="https://gitea.io/en-us/" target="_blank">Gitea</a> for my Git forge.
-      I'm trying to migrate to <a href="https://about.gitlab.com/" target="_blank">GitLab</a>, but I've had a lot of issues setting it up.
-      I <a href="https://blog.ctmartin.me/2019/02/ci-cd-with-gitlab/" target="_blank">wrote recently about using GitLab CI/CD</a> and am working on a local runner.
+      I'm currently using <a href="https://gitea.io/en-us/" target="_blank" rel="noopener">Gitea</a> for my Git forge.
+      I'm trying to migrate to <a href="https://about.gitlab.com/" target="_blank" rel="noopener">GitLab</a>, but I've had a lot of issues setting it up.
+      I <a href="https://blog.ctmartin.me/2019/02/ci-cd-with-gitlab/" target="_blank" rel="noopener">wrote recently about using GitLab CI/CD</a> and am working on a local runner.
     </p>
 
     <p>

@@ -3,7 +3,7 @@
     <h2 class="title">Virtualization</h2>
 
     <p>
-      I'm using <a href="https://www.proxmox.com/en/proxmox-ve" target="_blank">Proxmox</a> as my hypervisor, based on KVM & Debian.
+      I'm using <a href="https://www.proxmox.com/en/proxmox-ve" target="_blank" rel="noopener">Proxmox</a> as my hypervisor, based on KVM & Debian.
       While less popular in enterprise, it's fairly popular for home labs and for SMB-grade infrastructure it works just fine.
       Additionally, it's based around open-source software and doesn't require licensing fees.
     </p>

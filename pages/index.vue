@@ -25,7 +25,6 @@
           <div class="card-content">
             <h4 class="title is-4"><span v-if="project.icon" :class="project.icon" class="fa fa-fw"></span> {{project.name}}</h4>
             <p>{{project.description}}</p>
-            <nuxt-link :to="project.url" class="btn btn-primary d-block" style="color:rgba(255,255,255,0.9)">More</nuxt-link>
           </div>
         </div>
       </nuxt-link>

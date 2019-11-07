@@ -17,7 +17,7 @@ export const state = () => ({
     {
       name: 'Home Lab',
       url: '/projects/home-lab',
-      description: 'SMB-grade infrastructure for testing systems & integration of enterprise technologies',
+      description: 'SMB-grade infra for testing & integration of enterprise technologies',
       tags: ['cloud','home-hero'],
       icon: 'fa-server',
     },

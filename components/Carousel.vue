@@ -1,20 +1,25 @@
 <template>
   <div v-swiper:mySwiper="swiperOptions">
     <div class="swiper-wrapper">
-      <div class="swiper-slide" v-for="banner in this.banners" :key="banner">
-        <img :src="banner" />
+      <div v-for="banner in banners" :key="banner" class="swiper-slide">
+        <img :src="banner" >
       </div>
     </div>
-    <div class="swiper-button-prev" slot="button-prev"></div>
-    <div class="swiper-button-next" slot="button-next"></div>
-    <div class="swiper-pagination swiper-pagination-bullets"></div>
+    <div slot="button-prev" class="swiper-button-prev"/>
+    <div slot="button-next" class="swiper-button-next"/>
+    <div class="swiper-pagination swiper-pagination-bullets"/>
   </div>
 </template>
 
 <script>
 export default {
-  props: ['banners'],
-  data() {
+  props: {
+    banners: {
+      type: Array,
+      default: () => { return [] }
+    }
+  },
+  data () {
     return {
       swiperOptions: {
         loop: true,

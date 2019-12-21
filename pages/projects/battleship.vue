@@ -11,9 +11,9 @@
       <b-collapse :open.sync="isOpen" class="panel column is-3">
         <p slot="trigger" slot-scope="props" class="panel-heading">
           Sections
-          <span class="icon fa is-pulled-right" :class="props.open ? 'fa-caret-down' : 'fa-caret-up'"></span>
+          <span :class="props.open ? 'fa-caret-down' : 'fa-caret-up'" class="icon fa is-pulled-right"/>
         </p>
-        <nuxt-link class="panel-block" :to="section.link" v-for="section in sections" :key="section.title">{{section.title}}</nuxt-link>
+        <nuxt-link v-for="section in sections" :to="section.link" :key="section.title" class="panel-block">{{ section.title }}</nuxt-link>
       </b-collapse>
 
       <article class="column is-9 content">
@@ -25,7 +25,7 @@
 
 <script>
 export default {
-  data() {
+  data () {
     return {
       isOpen: true,
       sections: [
@@ -33,11 +33,11 @@ export default {
         { title: 'Designing for a touch medium', link: 'designing-for-touch' },
         { title: 'Hardware troubleshooting', link: 'hardware-troubles' },
         { title: 'Experience concept', link: 'experience-concept' },
-        { title: 'Pains of stateless state management', link: 'stateless-states' },
-      ].map(item => {
-        const listitem = item;
-        listitem.link = `/projects/battleship/${item.link}`;
-        return listitem;
+        { title: 'Pains of stateless state management', link: 'stateless-states' }
+      ].map((item) => {
+        const listitem = item
+        listitem.link = `/projects/battleship/${item.link}`
+        return listitem
       })
     }
   }

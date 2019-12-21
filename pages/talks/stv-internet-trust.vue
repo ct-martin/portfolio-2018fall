@@ -8,7 +8,7 @@
     </nav>
     <p class="content">Group presentation for Science, Technology, &amp; Values on how the internet is build on trust and the complications that can arise from violation of that social construct.</p>
 
-    <embed-page src="https://docs.google.com/presentation/d/e/2PACX-1vQMb_BlbGitZZPAL2ddiLQcyiUhTXHyzO-IFW3dXD51R_UJDMkLSwLXD5_OBDv5uDxoyFGv156oR08R/embed"></embed-page>
+    <embed-page src="https://docs.google.com/presentation/d/e/2PACX-1vQMb_BlbGitZZPAL2ddiLQcyiUhTXHyzO-IFW3dXD51R_UJDMkLSwLXD5_OBDv5uDxoyFGv156oR08R/embed"/>
   </article>
 </template>
 

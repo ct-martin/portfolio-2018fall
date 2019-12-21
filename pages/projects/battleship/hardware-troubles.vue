@@ -13,7 +13,7 @@
       The model is the Acer Iconia 6120 (the laptop, not the tablet series), also known by the model number PAU30.
     </p>
 
-    <img style="max-height:300px;margin:0 auto 1em;display:block;" src="https://lh6.googleusercontent.com/K0KxivIfIFl5JNNOlr0C8ToJ8oeyhrdqFkI34aOLoq09GSx2wBePAx6NreXfwwJJzFuHY6tSzyJfa4vVubyRn6FZEEfRsZzGNdE3aVTZER9_3m_AFySkyIrWb0SJeu5rEiq9ysab" />
+    <img style="max-height:300px;margin:0 auto 1em;display:block;" src="https://lh6.googleusercontent.com/K0KxivIfIFl5JNNOlr0C8ToJ8oeyhrdqFkI34aOLoq09GSx2wBePAx6NreXfwwJJzFuHY6tSzyJfa4vVubyRn6FZEEfRsZzGNdE3aVTZER9_3m_AFySkyIrWb0SJeu5rEiq9ysab" >
 
     <p>
       The hinge has a button on either side.
@@ -26,7 +26,7 @@
       The BIOS has a built-in virtual keyboard that stays up until you boot into an operating system (including that it will stay up for the Windows pre-boot recovery menu).
     </p>
 
-    <img style="max-height:300px;margin:0 auto 1em;display:block;" src="https://lh6.googleusercontent.com/gLC9kdhpuEvxTbM1WJU7XWKHPt3DK5OnoQhVs4gwllVlYCaH97ZN-wAf_gjiD7iRnFKKf5Rn4Z9Mpwm9hA8MBhq58x8l8AyaX2O4kTX-m5uiTR6c8XV21SlaUjdEW-Hq0IRGLwV0" />
+    <img style="max-height:300px;margin:0 auto 1em;display:block;" src="https://lh6.googleusercontent.com/gLC9kdhpuEvxTbM1WJU7XWKHPt3DK5OnoQhVs4gwllVlYCaH97ZN-wAf_gjiD7iRnFKKf5Rn4Z9Mpwm9hA8MBhq58x8l8AyaX2O4kTX-m5uiTR6c8XV21SlaUjdEW-Hq0IRGLwV0" >
 
     <p>
       The CPU is ok by 2018 standards, but a too slow for moderately intensive usage.
@@ -34,10 +34,10 @@
       When drawing in Krita I was noticing the lines break, although I’ve see in some reviews since then that using a stylus can sometimes confuse it.
     </p>
 
-    <img style="max-height:300px;margin:0 auto;display:block;" src="https://lh6.googleusercontent.com/gLC9kdhpuEvxTbM1WJU7XWKHPt3DK5OnoQhVs4gwllVlYCaH97ZN-wAf_gjiD7iRnFKKf5Rn4Z9Mpwm9hA8MBhq58x8l8AyaX2O4kTX-m5uiTR6c8XV21SlaUjdEW-Hq0IRGLwV0" />
+    <img style="max-height:300px;margin:0 auto;display:block;" src="https://lh6.googleusercontent.com/gLC9kdhpuEvxTbM1WJU7XWKHPt3DK5OnoQhVs4gwllVlYCaH97ZN-wAf_gjiD7iRnFKKf5Rn4Z9Mpwm9hA8MBhq58x8l8AyaX2O4kTX-m5uiTR6c8XV21SlaUjdEW-Hq0IRGLwV0" >
     <p style="text-align:center;"><small>Chrome is open, but the video was paused the entire time I was drawing the “Hello”</small></p>
 
-    <img style="max-height:300px;margin:0 auto;display:block;" src="https://lh4.googleusercontent.com/itWAEDLGz1Cc2DCNnBVsDAz--QYttrXX81OnvRLr7IzWe038KsT73CvF3eCcs98AOEfiTlDUHhcmAgH0eTsWtIwVwdNiakS4QKiKTG5G9sKzhA7tBj7kEj968zjF9rLvlSyl9_SB" />
+    <img style="max-height:300px;margin:0 auto;display:block;" src="https://lh4.googleusercontent.com/itWAEDLGz1Cc2DCNnBVsDAz--QYttrXX81OnvRLr7IzWe038KsT73CvF3eCcs98AOEfiTlDUHhcmAgH0eTsWtIwVwdNiakS4QKiKTG5G9sKzhA7tBj7kEj968zjF9rLvlSyl9_SB" >
     <p style="text-align:center;"><small>This time the video was playing while I was writing</small></p>
 
     <p>
@@ -72,7 +72,7 @@
       It just makes for more confusion and fun trying to make everything work.
     </p>
 
-    <img style="max-height:300px;margin:0 auto 1em;display:block;" src="https://lh6.googleusercontent.com/66s0HHNyD7Q1WDUAI0T9H958DhewppQhh_kJRab9e-iX7LV9coqFLEK7nZjlALBaSfZJDnUGTU-xa0o86X9UjtUVAvocClfseBt5zHJDLEjSXDKH3ezez2cOHzBS4pER5Raivf5R" />
+    <img style="max-height:300px;margin:0 auto 1em;display:block;" src="https://lh6.googleusercontent.com/66s0HHNyD7Q1WDUAI0T9H958DhewppQhh_kJRab9e-iX7LV9coqFLEK7nZjlALBaSfZJDnUGTU-xa0o86X9UjtUVAvocClfseBt5zHJDLEjSXDKH3ezez2cOHzBS4pER5Raivf5R" >
 
     <p>
       Being able to run Linux has dramatically helped the performance of these devices that clearly show their age.

@@ -9,11 +9,11 @@
 
     <p>An interactive kaleidoscope you can draw on, with particles.</p>
 
-    <br />
+    <br >
     <Carousel :banners="banners" style="background:black;"/>
 
-    <br />
-    <a class="button is-link is-fullwidth" href="https://people.rit.edu/ctm2142/igme330/project2/" target="_blank" rel="noopener"><span class="fa fa-fw fa-link"></span> Try it!</a>
+    <br >
+    <a class="button is-link is-fullwidth" href="https://people.rit.edu/ctm2142/igme330/project2/" target="_blank" rel="noopener"><span class="fa fa-fw fa-link"/> Try it!</a>
     <!--<a class="button is-link is-fullwidth" href="https://github.com/ct-martin/StartPage" target="_blank" rel="noopener"><span class="fa fa-fw fa-github"></span> View on GitHub</a>-->
   </article>
 </template>
@@ -25,14 +25,14 @@ export default {
   components: {
     Carousel
   },
-  data() {
+  data () {
     return {
       banners: [
         '/img/projects/kaleidoscope-0.png',
         '/img/projects/kaleidoscope-1.png',
         '/img/projects/kaleidoscope-2.png',
-        '/img/projects/kaleidoscope-3.png',
-      ],
+        '/img/projects/kaleidoscope-3.png'
+      ]
     }
   }
 }

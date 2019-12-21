@@ -1,13 +1,13 @@
-import pkg from './package';
+import pkg from './package'
 
 module.exports = {
   /*
   ** Headers of the page
   */
   head: {
-    title: "Portfolio | Christian Martin",
+    title: 'Portfolio | Christian Martin',
     htmlAttrs: {
-      lang: 'en',
+      lang: 'en'
     },
     meta: [
       { charset: 'utf-8' },
@@ -16,11 +16,11 @@ module.exports = {
       { 'og:site_name': pkg.description },
       { 'twitter:title': pkg.description },
       { 'application-name': pkg.description },
-      { 'twitter:site': '@_ctmartin' },
+      { 'twitter:site': '@_ctmartin' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css', integrity: 'sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=', crossorigin: 'anonymous'},
+      { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css', integrity: 'sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=', crossorigin: 'anonymous' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Open+Sans:300,300i,600,600i|Source+Code+Pro:300&display=swap' }
     ]
   },
@@ -36,22 +36,21 @@ module.exports = {
   css: [
     '@/assets/css/html5boilerplate.css',
     'swiper/dist/css/swiper.css',
-    '@/assets/css/main.css',
+    '@/assets/css/main.css'
   ],
 
   /*
   ** Plugins to load before mounting the App
   */
   plugins: [
-    { src: '~/plugins/nuxt-swiper-plugin.js', ssr: false },
+    { src: '~/plugins/nuxt-swiper-plugin.js', ssr: false }
   ],
 
   /*
   ** Nuxt.js modules
   */
   modules: [
-    //'bootstrap-vue/nuxt',
-    ['nuxt-buefy', { materialDesignIcons: false }],
+    ['nuxt-buefy', { materialDesignIcons: false }]
   ],
 
   /*
@@ -64,5 +63,10 @@ module.exports = {
   generate: {
     dir: 'public',
     fallback: true
-  }
+  },
+
+  /*
+  ** TypeScript
+  */
+  buildModules: ['@nuxt/typescript-build']
 }

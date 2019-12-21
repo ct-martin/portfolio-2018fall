@@ -9,7 +9,7 @@
 
     <p class="content">An overview of distributed computing, such as virtualization and containers, how we use them, and why.</p>
     <PDFViewer src="https://ritlug.com/talks/slides/2017-w10-fall-overview-of-distributed-computing.pdf" />
-    <br />
+    <br >
     <a href="https://ritlug.com/talks/2017/11/03/overview-distributed-computing.html" target="_blank" rel="noopener" class="button is-link is-fullwidth">RITlug's Talk Page</a>
     <a href="https://ritlug.com/talks/slides/2017-w10-fall-overview-of-distributed-computing.pdf" target="_blank" rel="noopener" class="button is-link is-fullwidth" style="margin-top:.25rem;">Direct link to slides</a>
 

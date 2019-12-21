@@ -27,11 +27,11 @@ export const state = () => ({
       subtitle: 'Workshop @ RITlug',
       description: 'In this workshop, we will be creating a personal server that you can easily deploy yourself at home on a Raspberry Pi or a VPS (the cloud).',
       tags: ['ritlug', 'workshop', 'cloud']
-    },
-  ].map(item => {
-    const listitem = item;
-    listitem.category = 'talks';
-    listitem.icon = 'fa-desktop';
-    return listitem;
+    }
+  ].map((item) => {
+    const listitem = item
+    listitem.category = 'talks'
+    listitem.icon = 'fa-desktop'
+    return listitem
   })
-});
+})

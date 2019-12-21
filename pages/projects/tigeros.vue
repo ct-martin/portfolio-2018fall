@@ -19,14 +19,14 @@
       We've also refactored the packages to ensure better updating and forward compatibility.
     </p>
 
-    <br />
+    <br >
     <Carousel :banners="banners" />
 
-    <br />
-    <a class="button is-link is-fullwidth" href="https://github.com/RITlug/TigerOS" target="_blank" rel="noopener"><span class="fa fa-fw fa-github"></span> View on GitHub</a>
-    <a class="button is-link is-fullwidth" href="https://ritlug.com/tigeros" target="_blank" rel="noopener" style="margin-top:.25rem;"><span class="fa fa-fw fa-link"></span> View Project Homepage</a>
+    <br >
+    <a class="button is-link is-fullwidth" href="https://github.com/RITlug/TigerOS" target="_blank" rel="noopener"><span class="fa fa-fw fa-github"/> View on GitHub</a>
+    <a class="button is-link is-fullwidth" href="https://ritlug.com/tigeros" target="_blank" rel="noopener" style="margin-top:.25rem;"><span class="fa fa-fw fa-link"/> View Project Homepage</a>
 
-    <br />
+    <br >
     <div class="card">
       <div class="card-content">
         <p>TigerOS is a RITlug project. Code is available under GPLv3</p>
@@ -42,13 +42,13 @@ export default {
   components: {
     Carousel
   },
-  data() {
+  data () {
     return {
       banners: [
         '/img/projects/tigeros-whitebg.jpg',
         '/img/projects/tigeros-desktop.jpg',
-        '/img/projects/tigeros-ux-brainstorm.jpg',
-      ],
+        '/img/projects/tigeros-ux-brainstorm.jpg'
+      ]
     }
   }
 }

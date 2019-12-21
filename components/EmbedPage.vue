@@ -7,12 +7,17 @@
       allowfullscreen="true"
       mozallowfullscreen="true"
       webkitallowfullscreen="true"
-    ></iframe>
+    />
   </div>
 </template>
 
 <script>
 export default {
-  props: ['src']
+  props: {
+    src: {
+      type: String,
+      default: null
+    }
+  }
 }
 </script>

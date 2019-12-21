@@ -40,7 +40,7 @@
       This essentially doubles the effort it takes to do simple operations since I can’t reference an object like you normally would in OOP. Instead of:
     </p>
 
-<pre>
+    <pre>
 socket.on('ingame', cb2 => {
   if (gamesBySession.exists(sessionid)) {
     const gameId = gamesBySession[sessionid];
@@ -49,13 +49,13 @@ socket.on('ingame', cb2 => {
   }
   return cb2(-1);
 }));
-</pre>
+    </pre>
 
     <p>
       I have to do:
     </p>
 
-<pre>
+    <pre>
 socket.on('ingame', cb2 =>
  redisClient.exists(`gameOf.${sessionid}`, (err, inGame) => {
   if (inGame === 1) {
@@ -66,7 +66,7 @@ socket.on('ingame', cb2 =>
   }
   return cb2(-1);
 }));
-</pre>
+    </pre>
 
     <p>
       As you can see, the calculation & event logic is about the same, but referencing variables is significantly more complex.

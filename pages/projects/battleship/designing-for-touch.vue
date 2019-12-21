@@ -22,7 +22,7 @@
       The lower screen is used for navigation of content, while the top screen provides a more information, in this case by the medium of video clips.
     </p>
 
-    <img style="max-height:300px;margin:0 auto;display:block;" src="https://lh5.googleusercontent.com/_jQpI0yBr8zeR_2kZF-R35RZtbLvC5gJSeyePFXjspQ9j7kjT134LUAs1LZJQO44G0ZDdsqwP5j7ItGoS-DKcttMDeqSkjUnhO_247fmdIFiwJp7f96wV-0ji0QdJhskK2CJcEHb" />
+    <img style="max-height:300px;margin:0 auto;display:block;" src="https://lh5.googleusercontent.com/_jQpI0yBr8zeR_2kZF-R35RZtbLvC5gJSeyePFXjspQ9j7kjT134LUAs1LZJQO44G0ZDdsqwP5j7ItGoS-DKcttMDeqSkjUnhO_247fmdIFiwJp7f96wV-0ji0QdJhskK2CJcEHb" >
     <p style="text-align:center;"><small>Source: <a href="https://www.flickr.com/photos/jeepersmedia/40635432954/" target="_blank" rel="noopener">Mike Mozart</a> – CC-BY 2.0</small></p>
 
     <p>
@@ -30,7 +30,7 @@
       Unlike where there’s a split in my project and the Nintendo Switch kiosk, this uses the center portion of the screen for the primary content and puts the extra information at the top of bottom, presumably due to the highest and lowest areas being inconvenient to reach.
     </p>
 
-    <img style="max-height:300px;margin:0 auto;display:block;" src="https://lh3.googleusercontent.com/y62e8YeS8L4RITP3pIcvK-gohbJSfvG81pmLIxcHt5IUjG_KUQy4zad5ufIOaBOkH4XHn4l9TImHMhA7jhnIa62Rb6_2jt9LgqSH5z9yVJLD75h0-Y7zmjr7roXWpRjzm5wFdhkQ" />
+    <img style="max-height:300px;margin:0 auto;display:block;" src="https://lh3.googleusercontent.com/y62e8YeS8L4RITP3pIcvK-gohbJSfvG81pmLIxcHt5IUjG_KUQy4zad5ufIOaBOkH4XHn4l9TImHMhA7jhnIa62Rb6_2jt9LgqSH5z9yVJLD75h0-Y7zmjr7roXWpRjzm5wFdhkQ" >
     <p style="text-align:center;"><small>Source: <a href="https://commons.wikimedia.org/wiki/File:Saint_Paul_Union_Depot_at_Christmastime_16.jpg" target="_blank" rel="noopener">Runner1928</a> – CC-BY-SA 4.0</small></p>
 
     <p>
@@ -40,7 +40,7 @@
       Having virtual pages would also be beneficial for accessibility reasons, as typeface and text size could be changed easily.
     </p>
 
-    <img style="max-height:300px;margin:0 auto;display:block;" src="https://lh5.googleusercontent.com/_ND-yE0MNNeELKkzWeQy7XnwLAUooy-7IgJSdyye0uTlJD3tOCWfbUM-ajzyt6rYqob-pfX2uczDRXRnMTWpKuqU2PqZtuFZX953jPJiuk5W7wpFFA34IIhU9quvySs_1lwqnW32" />
+    <img style="max-height:300px;margin:0 auto;display:block;" src="https://lh5.googleusercontent.com/_ND-yE0MNNeELKkzWeQy7XnwLAUooy-7IgJSdyye0uTlJD3tOCWfbUM-ajzyt6rYqob-pfX2uczDRXRnMTWpKuqU2PqZtuFZX953jPJiuk5W7wpFFA34IIhU9quvySs_1lwqnW32" >
     <p style="text-align:center;"><small>This could be split down the center; Source: <a href="https://pxhere.com/en/photo/1387075" target="_blank" rel="noopener">Pxhere</a> – CC0</small></p>
 
     <p>
@@ -50,7 +50,7 @@
       For research, it would also be convenient as the touch would allow for easy markup with drawing/annotation tools.
     </p>
 
-    <img style="max-height:300px;margin:0 auto;display:block;" src="https://lh6.googleusercontent.com/yGVSErBeaGMdQk5eenVSyrIXupcGMpVvQNa3us4Xzc8K3DV4gwv42E6c0aPa-wNvUHOuGcM3PvUQ_k20hDNtQcAEU4-zoFivPFYYvHPZVkbhmKtVrr1tHUhVSj7Y2_RxyIHz-ZqA" />
+    <img style="max-height:300px;margin:0 auto;display:block;" src="https://lh6.googleusercontent.com/yGVSErBeaGMdQk5eenVSyrIXupcGMpVvQNa3us4Xzc8K3DV4gwv42E6c0aPa-wNvUHOuGcM3PvUQ_k20hDNtQcAEU4-zoFivPFYYvHPZVkbhmKtVrr1tHUhVSj7Y2_RxyIHz-ZqA" >
     <p style="text-align:center;"><small>A non-touch (but sideways-oriented) coding setup; Source: <a href="https://www.flickr.com/photos/coneybeare/5358097188" target="_blank" rel="noopener">coneybeare</a> – CC-BY 2.0</small></p>
 
     <p>
@@ -61,7 +61,7 @@
       Additionally, users could configure the layout and tools to be more ergonomic and to better suit their personal workflow.
     </p>
 
-    <img style="max-height:300px;margin:0 auto;display:block;" src="https://lh3.googleusercontent.com/xJtK6gjpO7f6wODmQ7PXke-Ga1GMSW-0YB-OgUM7EVfl4E5HlC5QPqvFj7s-6Ma9QYIs4vWVTeU8hQfeLArKPf4PUF-oYvcPi5GXs0eVcXsFwzxkp9k17JoKPSX1sKsnGJL4_PBI" />
+    <img style="max-height:300px;margin:0 auto;display:block;" src="https://lh3.googleusercontent.com/xJtK6gjpO7f6wODmQ7PXke-Ga1GMSW-0YB-OgUM7EVfl4E5HlC5QPqvFj7s-6Ma9QYIs4vWVTeU8hQfeLArKPf4PUF-oYvcPi5GXs0eVcXsFwzxkp9k17JoKPSX1sKsnGJL4_PBI" >
     <p style="text-align:center;"><small>Source: <a href="https://www.flickr.com/photos/37hz/1118026749/" target="_blank" rel="noopener">37hz</a> – CC-BY 2.0</small></p>
 
     <p>
@@ -70,7 +70,7 @@
       An example of this is in the photo below, where having the laptop’s screen above the tablet would be easier than looking far to the right.
     </p>
 
-    <img style="max-height:300px;margin:0 auto;display:block;" src="https://lh5.googleusercontent.com/GqgWgrcvgOT-ZkGa37LbkBz1Ae6I7RXK_jgWESU2Qmones9UnnTzF0LXDzHxl1TjdAeiQ7HpOx2TsycrvIbUlQnD-S_GU_z9mAq8iEE4uG4KZ8s6_Zy7gCEujQcOYPHGkX-C-MUB" />
+    <img style="max-height:300px;margin:0 auto;display:block;" src="https://lh5.googleusercontent.com/GqgWgrcvgOT-ZkGa37LbkBz1Ae6I7RXK_jgWESU2Qmones9UnnTzF0LXDzHxl1TjdAeiQ7HpOx2TsycrvIbUlQnD-S_GU_z9mAq8iEE4uG4KZ8s6_Zy7gCEujQcOYPHGkX-C-MUB" >
     <p style="text-align:center;"><small>Source: <a href="https://www.flickr.com/photos/qubodup/12248488454/" target="_blank" rel="noopener">Iwan Gabovitch</a> – CC-BY 2.0</small></p>
 
     <p>

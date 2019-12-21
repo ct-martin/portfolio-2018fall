@@ -13,15 +13,15 @@
       <li>Technologies used: Node.js, Websockets, p5.js (canvas), Redis</li>
     </ul>
 
-    <a class="button is-link is-fullwidth" href="https://github.com/ct-martin/Battleship" target="_blank" rel="noopener"><span class="fa fa-fw fa-github"></span> View on GitHub</a>
-    <br />
+    <a class="button is-link is-fullwidth" href="https://github.com/ct-martin/Battleship" target="_blank" rel="noopener"><span class="fa fa-fw fa-github"/> View on GitHub</a>
+    <br >
 
     <p>
       Over the summer I had the great fortune to meet Dr. Egert, one of the faculty at RIT and my mentor for this project.
       While cleaning his office, he found something rather unique – a laptop with a second touchscreen instead of a keyboard.
     </p>
 
-    <img style="max-height:300px;margin:0 auto 1em;display:block;" src="https://lh3.googleusercontent.com/jKWikFX6NUFYGNGFfV_Br9BQGS6clum31xJ0u6M-MQjQ6P9y7LSsP5LDyr5CxDaWevP9dUt4rtOvA38ziD68ds5NHjIX4ZJHlOhEApZkoI7KZmciZMQchF9qhjUI6URp_q_4deiM" />
+    <img style="max-height:300px;margin:0 auto 1em;display:block;" src="https://lh3.googleusercontent.com/jKWikFX6NUFYGNGFfV_Br9BQGS6clum31xJ0u6M-MQjQ6P9y7LSsP5LDyr5CxDaWevP9dUt4rtOvA38ziD68ds5NHjIX4ZJHlOhEApZkoI7KZmciZMQchF9qhjUI6URp_q_4deiM" >
 
     <p>
       Whenever I explain what this is to someone, the follow-up question is always some form of “Why would you ever want that?”

@@ -1,37 +1,37 @@
 <template>
   <article class="container">
     <div class="print-hidden">
-      <h1 class="title">About <nuxt-link to="/resume" class="button is-danger"><span aria-hidden="true" class="fa fa-fw fa-file-pdf-o"></span>&nbsp;Resume</nuxt-link></h1>
+      <h1 class="title">About <nuxt-link to="/resume" class="button is-danger"><span aria-hidden="true" class="fa fa-fw fa-file-pdf-o"/>&nbsp;Resume</nuxt-link></h1>
 
       <p>
         Front-End Developer, Interactive Developer
-        <br />
+        <br >
         Studying New Media Interactive Development &amp; Museum Studies at Rochester Institute of Technology
       </p>
 
       <h2 class="title" style="margin-bottom:.25em;margin-top:.5em;">Contact Info</h2>
       <div class="panel">
         <div class="panel-block">
-          <span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-github"></span></span>
+          <span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-github"/></span>
           <span><a href="https://github.com/ct-martin" target="_blank" rel="noopener">GitHub: @ct-martin</a></span>
         </div>
         <!--sse-->
-          <div class="panel-block">
-            <span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-envelope"></span></span>
-            <span><a href="mailto:hello@ctmartin.me">Email: hello@ctmartin.me</a></span>
-          </div>
-          <div class="panel-block">
-            <span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-comments-o"></span></span>
-            <span>IRC: ctmartin on <a href="https://freenode.net/" target="_blank" rel="noopener">FreeNode</a> &amp; <a href="https://matrix.org/" target="_blank" rel="noopener">Matrix</a></span>
-          </div>
-          <div class="panel-block">
-            <span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-linkedin-square"></span></span>
-            <span><a href="https://www.linkedin.com/in/ct-martin/" target="_blank" rel="noopener">LinkedIn: /in/ct-martin</a></span>
-          </div>
-          <div class="panel-block">
-            <span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-handshake-o"></span></span>
-            <span><a href="https://rit.joinhandshake.com/users/6938294" target="_blank" rel="noopener">Handshake</a></span>
-          </div>
+        <div class="panel-block">
+          <span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-envelope"/></span>
+          <span><a href="mailto:hello@ctmartin.me">Email: hello@ctmartin.me</a></span>
+        </div>
+        <div class="panel-block">
+          <span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-comments-o"/></span>
+          <span>IRC: ctmartin on <a href="https://freenode.net/" target="_blank" rel="noopener">FreeNode</a> &amp; <a href="https://matrix.org/" target="_blank" rel="noopener">Matrix</a></span>
+        </div>
+        <div class="panel-block">
+          <span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-linkedin-square"/></span>
+          <span><a href="https://www.linkedin.com/in/ct-martin/" target="_blank" rel="noopener">LinkedIn: /in/ct-martin</a></span>
+        </div>
+        <div class="panel-block">
+          <span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-handshake-o"/></span>
+          <span><a href="https://rit.joinhandshake.com/users/6938294" target="_blank" rel="noopener">Handshake</a></span>
+        </div>
         <!--/sse-->
       </div>
 
@@ -43,14 +43,14 @@
               <h4 class="subtitle">Programming</h4>
             </div>
             <div class="panel">
-              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-code"></span></span> <strong>Angular</strong></div>
-              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-code"></span></span> <strong>Node.js</strong></div>
-              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-code"></span></span> <strong>JavaScript</strong></div>
-              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-cloud"></span></span> PHP</div>
-              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-code"></span></span> <strong>React</strong></div>
-              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-code"></span></span> <strong>SASS/SCSS</strong></div>
-              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-code"></span></span> <strong>TypeScript</strong></div>
-              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-code"></span></span> <strong>Vue</strong></div>
+              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-code"/></span> <strong>Angular</strong></div>
+              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-code"/></span> <strong>Node.js</strong></div>
+              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-code"/></span> <strong>JavaScript</strong></div>
+              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-cloud"/></span> PHP</div>
+              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-code"/></span> <strong>React</strong></div>
+              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-code"/></span> <strong>SASS/SCSS</strong></div>
+              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-code"/></span> <strong>TypeScript</strong></div>
+              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-code"/></span> <strong>Vue</strong></div>
             </div>
           </div>
         </div>
@@ -60,13 +60,13 @@
               <h4 class="subtitle">Technologies</h4>
             </div>
             <div class="panel">
-              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-cloud"></span></span> Apache</div>
-              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-tasks"></span></span> <strong>Continuous Integration (CI)</strong></div>
-              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-code-fork"></span></span> <span><strong>Git</strong>, inc. GitHub &amp; GitLab</span></div>
-              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-database"></span></span> MariaDB/MySQL</div>
-              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-database"></span></span> MongoDB</div>
-              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-cloud"></span></span> Nginx</div>
-              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-database"></span></span> Redis</div>
+              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-cloud"/></span> Apache</div>
+              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-tasks"/></span> <strong>Continuous Integration (CI)</strong></div>
+              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-code-fork"/></span> <span><strong>Git</strong>, inc. GitHub &amp; GitLab</span></div>
+              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-database"/></span> MariaDB/MySQL</div>
+              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-database"/></span> MongoDB</div>
+              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-cloud"/></span> Nginx</div>
+              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-database"/></span> Redis</div>
             </div>
           </div>
         </div>
@@ -76,10 +76,10 @@
               <h4 class="subtitle">Platforms</h4>
             </div>
             <div class="panel">
-              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-cloud"></span></span> <strong>Docker</strong></div>
-              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-cloud"></span></span> <strong>Heroku</strong></div>
-              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-linux"></span></span> <span><strong>Linux</strong> (Debian &amp; RedHat families)</span></div>
-              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-cloud"></span></span> <span><strong>Virtualization</strong> (QEMU/KVM-based, ESXi)</span></div>
+              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-cloud"/></span> <strong>Docker</strong></div>
+              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-cloud"/></span> <strong>Heroku</strong></div>
+              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-linux"/></span> <span><strong>Linux</strong> (Debian &amp; RedHat families)</span></div>
+              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-cloud"/></span> <span><strong>Virtualization</strong> (QEMU/KVM-based, ESXi)</span></div>
             </div>
           </div>
         </div>
@@ -89,13 +89,13 @@
               <h4 class="subtitle">Other</h4>
             </div>
             <div class="panel">
-              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-code"></span></span> C#</div>
-              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-code"></span></span> Python</div>
-              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-code"></span></span> Java</div>
-              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-cloud"></span></span> Networking</div>
-              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-cloud"></span></span> Systems Administration</div>
-              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-gamepad"></span></span> Unity</div>
-              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-gamepad"></span></span> Unreal Engine</div>
+              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-code"/></span> C#</div>
+              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-code"/></span> Python</div>
+              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-code"/></span> Java</div>
+              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-cloud"/></span> Networking</div>
+              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-cloud"/></span> Systems Administration</div>
+              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-gamepad"/></span> Unity</div>
+              <div class="panel-block"><span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-gamepad"/></span> Unreal Engine</div>
             </div>
           </div>
         </div>

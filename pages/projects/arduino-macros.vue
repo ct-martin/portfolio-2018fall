@@ -28,11 +28,11 @@
       </p>
     </div>
 
-    <br />
+    <br >
     <Carousel :banners="banners" style="background:black;max-height:500px;"/>
 
-    <br />
-    <a class="button is-link is-fullwidth" href="https://people.rit.edu/ctm2142/igme330/web%20audio-1-proj/" target="_blank" rel="noopener"><span class="fa fa-fw fa-video"></span> See the video</a>
+    <br >
+    <a class="button is-link is-fullwidth" href="https://people.rit.edu/ctm2142/igme330/web%20audio-1-proj/" target="_blank" rel="noopener"><span class="fa fa-fw fa-video"/> See the video</a>
     <!--<a class="button is-link is-fullwidth" href="https://github.com/ct-martin/StartPage" target="_blank" rel="noopener"><span class="fa fa-fw fa-github"></span> View on GitHub</a>-->
   </article>
 </template>
@@ -44,11 +44,11 @@ export default {
   components: {
     Carousel
   },
-  data() {
+  data () {
     return {
       banners: [
-        '/img/projects/arduino-macros.jpg',
-      ],
+        '/img/projects/arduino-macros.jpg'
+      ]
     }
   }
 }

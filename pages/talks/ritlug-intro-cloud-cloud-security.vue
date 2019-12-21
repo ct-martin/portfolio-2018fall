@@ -9,7 +9,7 @@
 
     <p class="content">Learn about the layers that make up "The Cloud" & the security concerns at each of those layers.</p>
     <PDFViewer src="https://ritlug.com/talks/slides/2019-spring-w03-intro-to-cloud-cloud-security.pdf" />
-    <br />
+    <br >
     <!--<a href="https://ritlug.com/talks/" target="_blank" rel="noopener" class="button is-link is-fullwidth">RITlug's Talk Page</a>-->
     <a href="https://ritlug.com/talks/slides/2019-spring-w03-intro-to-cloud-cloud-security.pdf" target="_blank" rel="noopener" class="button is-link is-fullwidth" style="margin-top:.25rem;">Direct link to slides</a>
 

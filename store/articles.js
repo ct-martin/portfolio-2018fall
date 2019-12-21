@@ -4,13 +4,13 @@ export const state = () => ({
       name: 'Bundling JS with Webpack & Babel',
       url: 'https://blog.ctmartin.me/2019/02/bundling-js-with-webpack-babel/',
       description: 'Retroactively adding Webpack & Babel to a Node.js project.',
-      tags: ['home-more'],
+      tags: ['home-more']
     },
     {
       name: 'CI/CD with GitLab',
       url: 'https://blog.ctmartin.me/2019/02/ci-cd-with-gitlab/',
       description: 'Setting up a staging environment, automated testing (inc. security & compliance tests), and automated deployment.',
-      tags: ['home-more'],
+      tags: ['home-more']
     },
     {
       name: 'The apartment life of securing data',
@@ -54,10 +54,10 @@ export const state = () => ({
       description: 'Gmail\'s AI isn\'t very accessible in a FOSS-friendly way... but with a little effort, we can make it work.',
       tags: ['foss']
     }
-  ].map(item => {
-    const listitem = item;
-    listitem.category = 'article';
-    listitem.icon = 'fa-book';
-    return listitem;
+  ].map((item) => {
+    const listitem = item
+    listitem.category = 'article'
+    listitem.icon = 'fa-book'
+    return listitem
   })
-});
+})

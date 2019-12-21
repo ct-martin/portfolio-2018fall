@@ -9,11 +9,11 @@
 
     <p>A simple page to read the news and weather, using the geolocation API &amp; local storage caching.</p>
 
-    <br />
+    <br >
     <Carousel :banners="banners" />
 
-    <br />
-    <a class="button is-link is-fullwidth" href="https://github.com/ct-martin/StartPage" target="_blank" rel="noopener"><span class="fa fa-fw fa-github"></span> View on GitHub</a>
+    <br >
+    <a class="button is-link is-fullwidth" href="https://github.com/ct-martin/StartPage" target="_blank" rel="noopener"><span class="fa fa-fw fa-github"/> View on GitHub</a>
   </article>
 </template>
 
@@ -24,11 +24,11 @@ export default {
   components: {
     Carousel
   },
-  data() {
+  data () {
     return {
       banners: [
-        '/img/projects/startpage.png',
-      ],
+        '/img/projects/startpage.png'
+      ]
     }
   }
 }

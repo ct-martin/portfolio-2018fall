@@ -17,17 +17,17 @@ footer {
 
 /* Design changes */
 body {
-	font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 body, small, h2, h3, h4, h5, h6, .title:not(h1), .content h2, .content h3, .content h4, .content h5, .content h6 {
-	font-weight: 300;
+  font-weight: 300;
 }
 h1, b, strong, .font-weight-bold {
-	font-weight: 600;
+  font-weight: 600;
 }
 tt, code, kbd, samp, pre {
-	font-family: 'Source Code Pro';
-	font-weight: 300;
+  font-family: 'Source Code Pro';
+  font-weight: 300;
 }
 
 /* Functional changes */
@@ -47,10 +47,12 @@ main .hero {
 .card .panel-block {
   border-left: none;
   border-right: none;
+
+  &:last-child {
+    border-bottom: none;
+  }
 }
-.card .panel-block:last-child {
-  border-bottom: none;
-}
+
 .print-only {
   display: none;
 }
@@ -65,20 +67,22 @@ main .hero {
 /* Copied from Bootstrap under the MIT license */
 /* https://getbootstrap.com/docs/4.3/utilities/embed/ */
 .embed-responsive {
-    position: relative;
-    display: block;
-    width: 100%;
-    padding: 0;
-    overflow: hidden;
-}
-.embed-responsive-16by9::before {
-    padding-top: 56.25%;
-}
-.embed-responsive::before {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding: 0;
+  overflow: hidden;
+
+  &::before {
     display: block;
     content: "";
-}
-.embed-responsive .embed-responsive-item, .embed-responsive embed, .embed-responsive iframe, .embed-responsive object, .embed-responsive video {
+  }
+
+  &.embed-responsive-16by9::before {
+    padding-top: 56.25%;
+  }
+
+  .embed-responsive-item, .embed-responsive embed, .embed-responsive iframe, .embed-responsive object, .embed-responsive video {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -86,42 +90,44 @@ main .hero {
     width: 100%;
     height: 100%;
     border: 0;
+  }
 }
 
 /* Aesthetic changes */
 nav.navbar {
-	background-color: white;
-	border-bottom: 1px solid lightgrey;
-	box-shadow: 0 0 7px dimgrey;
+  background-color: white;
+  border-bottom: 1px solid lightgrey;
+  box-shadow: 0 0 7px dimgrey;
 }
 .nav-link {
     padding-left: .5rem;
 }
 
 .footer {
-	color: white;
-	padding-top: 1rem;
-	padding-bottom: 1rem;
-	margin-top: 1.2rem;
-}
-.footer p {
-	margin-bottom: 0;
+  color: white;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-top: 1.2rem;
+  
+  p {
+    margin-bottom: 0;
+  }
 }
 
 /* Resume formatting (currently unused) */
 p.indented {
-	text-indent: 3em;
-	line-height: 1.15;
+  text-indent: 3em;
+  line-height: 1.15;
 }
 p.text-center {
-	text-align: center;
-	text-indent: 0;
+  text-align: center;
+  text-indent: 0;
 }
 p.mini-header {
-	text-indent: 0;
-	font-weight: bold;
+  text-indent: 0;
+  font-weight: bold;
 }
 p.left-padding {
-	padding-left: 3em;
-	text-indent: 0;
+  padding-left: 3em;
+  text-indent: 0;
 }

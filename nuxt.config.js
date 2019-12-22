@@ -36,7 +36,7 @@ module.exports = {
   css: [
     '@/assets/css/html5boilerplate.css',
     'swiper/dist/css/swiper.css',
-    '@/assets/css/main.css'
+    '@/assets/css/main.scss'
   ],
 
   /*

@@ -4,28 +4,28 @@ export const state = () => ({
       name: 'Short-Link',
       url: '/projects/short-link',
       description: 'Node.js & React URL Shortener with analytics tracking and charts',
-      tags: ['web', 'home-hero'],
+      tags: ['Web', 'home-hero'],
       icon: 'fa-code'
     },
     {
       name: 'Battleship',
       url: '/projects/battleship',
       description: 'UX study, experience & proof of concept in synchonizing clients',
-      tags: ['design-ux', 'web', 'home-hero'],
+      tags: ['Design/UX', 'Web', 'home-hero'],
       icon: 'fa-code'
     },
     {
       name: 'Home Lab',
       url: '/projects/home-lab',
       description: 'SMB-grade infra for testing & integration of enterprise technologies',
-      tags: ['cloud', 'home-hero'],
+      tags: ['Cloud', 'home-hero'],
       icon: 'fa-server'
     },
     {
       name: 'TigerOS',
       url: '/projects/tigeros',
       description: 'RITlug\'s Linux distro for RIT',
-      tags: ['linux'],
+      tags: ['Linux'],
       icon: 'fa-laptop'
     },
     /* {
@@ -36,44 +36,44 @@ export const state = () => ({
       tags: ['web'],
       icon: 'fa-code',
     }, */
-    {
+    /*{
       name: 'Kaleidoscope',
       url: '/projects/kaleidoscope',
       description: 'An interactive kaleidoscope you can draw on, with particles.',
-      tags: ['design-ux'],
+      tags: ['Design/UX'],
       icon: 'fa-mouse-pointer'
     },
     {
       name: 'Arduino Macro Buttons',
       url: '/projects/arduino-macros',
       description: 'Taking complex keyboard shortcuts to just a button press',
-      tags: ['design-ux'],
+      tags: ['Design/UX'],
       icon: 'fa-keyboard-o'
     },
     {
       name: 'Web Audio Visualizer',
       url: '/projects/audio-viz',
       description: 'Waveform/frequency viewer with filters',
-      tags: ['design-ux'],
+      tags: ['Design/UX'],
       icon: 'fa-music'
-    },
+    },*/
     {
       name: 'Portfolio Site',
       url: '/projects/portfolio-site',
       description: 'Here! A Single-Page Application (SPA) written using Nuxt.js (Vue.js\'s Next.js equivalent) and Bulma',
-      tags: ['web'],
+      tags: ['Web'],
       icon: 'fa-code'
     },
-    {
+    /*{
       name: 'StartPage',
       url: '/projects/startpage',
       description: 'A simple page to read the news and weather, using the geolocation API & local storage caching.',
       tags: ['web'],
       icon: 'fa-code'
-    }
+    }*/
   ].filter(item => !item.disabled).map((item) => {
     const listitem = item
-    listitem.category = 'projects'
+    listitem.category = 'Projects'
     return listitem
   })
 })

@@ -4,21 +4,21 @@ export const state = () => ({
       name: 'Short-Link',
       url: '/projects/short-link',
       description: 'Node.js & React URL Shortener with analytics tracking and charts',
-      tags: ['Web', 'home-hero'],
+      tags: ['Web'],
       icon: 'fa-code'
     },
     {
       name: 'Battleship',
       url: '/projects/battleship',
       description: 'UX study, experience & proof of concept in synchonizing clients',
-      tags: ['Design/UX', 'Web', 'home-hero'],
+      tags: ['Design/UX', 'Web'],
       icon: 'fa-code'
     },
     {
       name: 'Home Lab',
       url: '/projects/home-lab',
       description: 'SMB-grade infra for testing & integration of enterprise technologies',
-      tags: ['Cloud', 'home-hero'],
+      tags: ['Cloud'],
       icon: 'fa-server'
     },
     {

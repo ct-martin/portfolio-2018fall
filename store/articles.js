@@ -4,13 +4,13 @@ export const state = () => ({
       name: 'Bundling JS with Webpack & Babel',
       url: 'https://blog.ctmartin.me/2019/02/bundling-js-with-webpack-babel/',
       description: 'Retroactively adding Webpack & Babel to a Node.js project.',
-      tags: ['home-more']
+      tags: ['Web']
     },
     {
       name: 'CI/CD with GitLab',
       url: 'https://blog.ctmartin.me/2019/02/ci-cd-with-gitlab/',
       description: 'Setting up a staging environment, automated testing (inc. security & compliance tests), and automated deployment.',
-      tags: ['home-more']
+      tags: ['Cloud', 'Web']
     },
     {
       name: 'The apartment life of securing data',
@@ -28,7 +28,7 @@ export const state = () => ({
       name: 'Secure cookies behind multiple proxies',
       url: 'https://blog.ctmartin.me/2019/01/secure-cookies-behind-multiple-proxies/',
       description: 'What I learned while implementing Secure cookies on a project.',
-      tags: ['Cloud', 'home-more']
+      tags: ['Cloud']
     },
     {
       name: 'Identifying how broken the Matrix bridge is',

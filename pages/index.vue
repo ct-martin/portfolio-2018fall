@@ -47,7 +47,7 @@
         v-model="selectedCategories"
       >
         <button class="button" slot="trigger">
-          <span class="fa fa-fw fa-filter"></span>
+          <span class="fa fa-fw fa-folder"></span>
           <span>Categories ({{selectedCategories.length}})</span>
           <span class="fa fa-fw fa-caret-down"></span>
         </button>
@@ -86,14 +86,22 @@
       <hr>
       <div v-if="filteredItems.length">
         <div class="columns is-multiline">
-          <nuxt-link v-for="project in filteredItems" :to="project.url" :key="project.name" class="column is-half-tablet is-one-third-desktop is-one-quarter-widescreen">
-            <div class="card">
+          <div v-for="project in filteredItems" class="column is-half-tablet is-one-third-desktop is-one-quarter-widescreen">
+            <nuxt-link v-if="project.url.search(/^http[s]{0,1}:\/\/(.*)/gmi) !== 0" :to="project.url" class="card is-block">
               <div class="card-content">
                 <h4 class="title is-4"><span v-if="project.icon" :class="project.icon" class="fa fa-fw"/> {{ project.name }}</h4>
                 <p>{{ project.description }}</p>
+                <!--<b-taglist><b-tag><span class="fa fa-fw fa-folder"></span> {{project.category}}</b-tag><b-tag v-for="tag in project.tags" :key="tag"><span class="fa fa-fw fa-tag"></span> {{tag}}</b-tag></b-taglist>-->
               </div>
-            </div>
-          </nuxt-link>
+            </nuxt-link>
+            <a v-else :href="project.url" class="card is-block" target="_blank" rel="noopener">
+              <div class="card-content">
+                <h4 class="title is-4"><span v-if="project.icon" :class="project.icon" class="fa fa-fw"/> {{ project.name }}</h4>
+                <p>{{ project.description }}</p>
+                <!--<b-taglist><b-tag><span class="fa fa-fw fa-folder"></span> {{project.category}}</b-tag><b-tag v-for="tag in project.tags" :key="tag"><span class="fa fa-fw fa-tag"></span> {{tag}}</b-tag></b-taglist>-->
+              </div>
+            </a>
+          </div>
         </div>
       </div>
       <p v-else>Nothing to see; try a less specific filter</p>
@@ -127,7 +135,7 @@ export default {
         categories.push(i.category);
       }
       i.tags.forEach((t) => {
-        if(!t.startsWith('home-') && !tags.includes(t)) {
+        if(!tags.includes(t)) {
           tags.push(t);
         }
       })

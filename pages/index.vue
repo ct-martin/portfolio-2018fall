@@ -36,6 +36,8 @@
           :key="cat"
           :value="cat"
         >
+            <span v-if="selectedCategories.includes(cat)" class="fa fa-fw fa-check-square-o"></span>
+            <span v-else class="fa fa-fw fa-square-o"></span>
           <span>{{cat}}</span>
         </b-dropdown-item>
       </b-dropdown>
@@ -58,7 +60,11 @@
           :key="tag"
           :value="tag"
         >
-          <span>{{tag}}</span>
+          <span>
+            <span v-if="selectedTags.includes(tag)" class="fa fa-fw fa-check-square-o"></span>
+            <span v-else class="fa fa-fw fa-square-o"></span>
+            {{tag}}
+          </span>
         </b-dropdown-item>
       </b-dropdown>
       <hr>
@@ -67,16 +73,16 @@
           <div v-for="project in filteredItems" class="column is-half-tablet is-one-third-desktop is-one-quarter-widescreen">
             <nuxt-link v-if="project.url.search(/^http[s]{0,1}:\/\/(.*)/gmi) !== 0" :to="project.url" class="card is-block">
               <div class="card-content">
-                <h4 class="title is-4"><span v-if="project.icon" :class="project.icon" class="fa fa-fw"/> {{ project.name }}</h4>
+                <span class="is-size-4"><span v-if="project.icon" :class="project.icon" class="fa fa-fw"/> {{ project.name }}</span>
                 <p>{{ project.description }}</p>
-                <!--<b-taglist><b-tag><span class="fa fa-fw fa-folder"></span> {{project.category}}</b-tag><b-tag v-for="tag in project.tags" :key="tag"><span class="fa fa-fw fa-tag"></span> {{tag}}</b-tag></b-taglist>-->
+                <b-taglist style="margin-top:0.5em;"><b-tag><span class="fa fa-fw fa-folder"></span> {{project.category}}</b-tag><b-tag v-for="tag in project.tags" :key="tag"><span class="fa fa-fw fa-tag"></span> {{tag}}</b-tag></b-taglist>
               </div>
             </nuxt-link>
             <a v-else :href="project.url" class="card is-block" target="_blank" rel="noopener">
               <div class="card-content">
-                <h4 class="title is-4"><span v-if="project.icon" :class="project.icon" class="fa fa-fw"/> {{ project.name }}</h4>
+                <span class="is-size-4"><span v-if="project.icon" :class="project.icon" class="fa fa-fw"/> {{ project.name }}</span>
                 <p>{{ project.description }}</p>
-                <!--<b-taglist><b-tag><span class="fa fa-fw fa-folder"></span> {{project.category}}</b-tag><b-tag v-for="tag in project.tags" :key="tag"><span class="fa fa-fw fa-tag"></span> {{tag}}</b-tag></b-taglist>-->
+                <b-taglist style="margin-top:0.5em;"><b-tag><span class="fa fa-fw fa-folder"></span> {{project.category}}</b-tag><b-tag v-for="tag in project.tags" :key="tag"><span class="fa fa-fw fa-tag"></span> {{tag}}</b-tag></b-taglist>
               </div>
             </a>
           </div>

@@ -16,28 +16,6 @@
       </div>
     </section>
 
-    <!--<br >
-    <div id="heroCards" class="container">
-      <h3 class="title">Projects</h3>
-      <div class="columns">
-        <nuxt-link v-for="project in this.$store.state['content'].list.filter(item => item.tags.includes('home-hero'))" :to="project.url" :key="project.name" class="column">
-          <div class="card">
-            <div class="card-content">
-              <h4 class="title is-4"><span v-if="project.icon" :class="project.icon" class="fa fa-fw"/> {{ project.name }}</h4>
-              <p>{{ project.description }}</p>
-            </div>
-          </div>
-        </nuxt-link>
-      </div>
-    </div>
-    <br >
-
-    <div id="homeCards" class="container">
-      <h3 class="title">Articles &amp; Talks</h3>
-      <custom-list-group source="content" tag="home-more" />
-    </div>-->
-
-    <!-- <nuxt-link v-for="project in this.$store.state.talks.list" :to="project.url" :key="project.name" class="card is-block"> -->
     <br>
     <section class="container">
       <b-dropdown

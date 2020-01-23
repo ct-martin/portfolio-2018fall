@@ -6,12 +6,12 @@ export const state = () => ({
       description: 'Coding my blog to be printable and have accessible syntax highlighting.',
       tags: ['Web']
     },
-    {
+    /*{
       name: 'Mobile Blogging',
       url: 'https://blog.ctmartin.me/2019/10/mobile-blogging/',
       description: 'Blogging on Android using Git & Termux.',
       tags: ['Web']
-    },
+    },*/
     {
       name: 'Hugo',
       url: 'https://blog.ctmartin.me/2019/10/hugo/',
@@ -48,12 +48,12 @@ export const state = () => ({
       description: 'What I learned while implementing Secure cookies on a project.',
       tags: ['Cloud']
     },
-    {
+    /*{
       name: 'Identifying how broken the Matrix bridge is',
       url: 'https://blog.ctmartin.me/2018/04/identifying-how-broken-the-matrix-bridge-is/',
       description: 'What I’ve learned using Matrix daily for several months and as a result of multiple failures of the Matrix<->Freenode bridge early 2018',
       tags: ['FOSS']
-    },
+    },*/
     /*{
       name: 'The importance of good docs',
       url: 'https://blog.ctmartin.me/2018/04/the-importance-of-good-docs/',

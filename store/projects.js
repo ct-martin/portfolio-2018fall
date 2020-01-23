@@ -1,10 +1,24 @@
 export const state = () => ({
   list: [
     {
+      name: 'Vis',
+      url: 'https://vis.ctmartin.me/',
+      description: 'Data visualizations of pancakes, life, and about half a million museum objects',
+      tags: ['Data', 'Web'],
+      icon: 'fa-area-chart'
+    },
+    {
+      name: 'Portfolio Site',
+      url: '/projects/portfolio-site',
+      description: 'Here! A Single-Page Application (SPA) written using Nuxt.js and Bulma; TypeScript-enabled',
+      tags: ['Web'],
+      icon: 'fa-code'
+    },
+    {
       name: 'Short-Link',
       url: '/projects/short-link',
       description: 'Node.js & React URL Shortener with analytics tracking and charts',
-      tags: ['Web'],
+      tags: ['Data', 'Web'],
       icon: 'fa-code'
     },
     {
@@ -15,19 +29,26 @@ export const state = () => ({
       icon: 'fa-code'
     },
     {
+      name: 'More Sites',
+      url: 'https://ctmartin.me/#hobbies',
+      description: 'Static Sites deployed w/ CI and keeping things simple but powerful',
+      tags: ['Web'],
+      icon: 'fa-code'
+    },
+    {
       name: 'Home Lab',
       url: '/projects/home-lab',
       description: 'SMB-grade infra for testing & integration of enterprise technologies',
       tags: ['Cloud'],
       icon: 'fa-server'
     },
-    {
+    /*{
       name: 'TigerOS',
       url: '/projects/tigeros',
       description: 'RITlug\'s Linux distro for RIT',
       tags: ['Linux'],
       icon: 'fa-laptop'
-    },
+    },*/
     /* {
       name: '[NYI] Bullet Journal',
       badge: 'Prototype',
@@ -57,13 +78,6 @@ export const state = () => ({
       tags: ['Design/UX'],
       icon: 'fa-music'
     },*/
-    {
-      name: 'Portfolio Site',
-      url: '/projects/portfolio-site',
-      description: 'Here! A Single-Page Application (SPA) written using Nuxt.js (Vue.js\'s Next.js equivalent) and Bulma',
-      tags: ['Web'],
-      icon: 'fa-code'
-    },
     /*{
       name: 'StartPage',
       url: '/projects/startpage',

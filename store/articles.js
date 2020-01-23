@@ -16,7 +16,7 @@ export const state = () => ({
       name: 'Hugo',
       url: 'https://blog.ctmartin.me/2019/10/hugo/',
       description: 'This summer I converted my blog to use Hugo, a static site generator, and GitLab Pages for a simple, lightning-fast, and secure writing experience.',
-      tags: ['Web', 'Cloud']
+      tags: ['Cloud', 'Web']
     },
     {
       name: 'Bundling JS with Webpack & Babel',

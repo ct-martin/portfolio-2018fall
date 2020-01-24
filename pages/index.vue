@@ -6,12 +6,14 @@
           <h1 class="title">
             Christian Martin
           </h1>
-          <h2 class="subtitle">
-            Front-End Developer, Interactive Developer
-            <br >
+          <p class="subtitle">
+            <strong>Front-End Developer, Interactive Developer</strong><br>
+            Available for Full-Time in May/June
+          </p>
+          <p>
             Studying New Media Interactive Development &amp; Museum Studies<br >
             at Rochester Institute of Technology
-          </h2>
+          </p>
         </div>
       </div>
     </section>

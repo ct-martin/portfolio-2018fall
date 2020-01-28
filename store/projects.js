@@ -4,13 +4,16 @@ export const state = () => ({
       name: 'Vis',
       url: 'https://vis.ctmartin.me/',
       description: 'Data visualizations of pancakes, life, and about half a million museum objects',
+      featured: true,
+      image: '/img/projects/met-view.jpg',
       tags: ['Data', 'Web'],
       icon: 'fa-area-chart'
     },
     {
       name: 'Portfolio Site',
       url: '/projects/portfolio-site',
-      description: 'Here! A Single-Page Application (SPA) written using Nuxt.js and Bulma; TypeScript-enabled',
+      description: 'Here! A Single-Page Application (SPA) using Bulma, GitLab CI, Nuxt.js, SASS, & TypeScript',
+      featured: true,
       tags: ['Web'],
       icon: 'fa-code'
     },

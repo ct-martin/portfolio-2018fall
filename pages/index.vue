@@ -1,21 +1,40 @@
 <template>
   <div>
-    <section class="hero is-medium is-info is-bold">
-      <div class="hero-body">
-        <div class="container">
-          <h1 class="title">
-            Christian Martin
-          </h1>
-          <p class="subtitle">
-            <strong>Front-End Developer, Interactive Developer</strong><br>
-            Available for Full-Time in May/June
-          </p>
-          <p>
-            Studying New Media Interactive Development &amp; Museum Studies<br >
-            at Rochester Institute of Technology
-          </p>
+    <section v-swiper:mySwiper="swiperOptions">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="hero is-medium is-info is-bold">
+            <div class="hero-body">
+              <div class="container">
+                <h1 class="title">
+                  Christian Martin
+                </h1>
+                <p class="subtitle">
+                  <strong>Front-End Developer, Interactive Developer</strong><br>
+                  Available for Full-Time in May/June
+                </p>
+                <p>
+                  Studying New Media Interactive Development &amp; Museum Studies<br >
+                  at Rochester Institute of Technology
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div v-for="project in meta.featured" :key="project" class="swiper-slide">
+          <a :href="project.url" class="hero is-medium is-light is-bold" :style="{ backgroundImage: project.image ? 'url(' + project.image + ')' : '' }" style="background-size:cover;">
+            <div class="hero-body">
+              <div class="container">
+                <h1 class="title"><span v-if="project.icon" :class="project.icon" class="fa fa-fw"/> {{ project.name }}</h1>
+                <p class="subtitle">{{ project.description }}</p>
+              </div>
+            </div>
+          </a>
         </div>
       </div>
+      <div slot="button-prev" class="swiper-button-prev"/>
+      <div slot="button-next" class="swiper-button-next"/>
+      <div class="swiper-pagination swiper-pagination-bullets"/>
     </section>
 
     <br>
@@ -103,7 +122,11 @@ export default {
   data() {
     let categories = [];
     let tags = [];
+    let featured = [];
     this.$store.state['content'].list.forEach((i) => {
+      if(i.featured) {
+        featured.push(i);
+      }
       if(!categories.includes(i.category)) {
         categories.push(i.category);
       }
@@ -116,10 +139,29 @@ export default {
     return {
       meta: {
         categories,
+        featured,
         tags
       },
       selectedCategories: Array.from(categories),
-      selectedTags: Array.from(tags)
+      selectedTags: Array.from(tags),
+      swiperOptions: {
+        loop: true,
+        slidesPerView: 'auto',
+        centeredSlides: true,
+        spaceBetween: 30,
+        autoplay: {
+          delay: 5000,
+          disableOnIntegration: false
+        },
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev'
+        }
+      }
     }
   }
 }

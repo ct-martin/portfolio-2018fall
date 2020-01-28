@@ -22,7 +22,15 @@
           </div>
         </div>
         <div v-for="project in meta.featured" :key="project" class="swiper-slide">
-          <a :href="project.url" class="hero is-medium is-light is-bold" :style="{ backgroundImage: project.image ? 'url(' + project.image + ')' : '' }" style="background-size:cover;">
+          <nuxt-link v-if="project.url.search(/^http[s]{0,1}:\/\/(.*)/gmi) !== 0" :to="project.url" class="hero is-medium is-light is-bold" :style="{ backgroundImage: project.image ? 'url(' + project.image + ')' : '' }" style="background-size:cover;">
+            <div class="hero-body">
+              <div class="container">
+                <h1 class="title"><span v-if="project.icon" :class="project.icon" class="fa fa-fw"/> {{ project.name }}</h1>
+                <p class="subtitle">{{ project.description }}</p>
+              </div>
+            </div>
+          </nuxt-link>
+          <a v-else :href="project.url" class="hero is-medium is-light is-bold" :style="{ backgroundImage: project.image ? 'url(' + project.image + ')' : '' }" style="background-size:cover;">
             <div class="hero-body">
               <div class="container">
                 <h1 class="title"><span v-if="project.icon" :class="project.icon" class="fa fa-fw"/> {{ project.name }}</h1>

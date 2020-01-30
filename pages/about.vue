@@ -17,10 +17,6 @@
         </div>
         <!--sse-->
         <div class="panel-block">
-          <span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-envelope"/></span>
-          <span><a href="mailto:hello@ctmartin.me">Email: hello@ctmartin.me</a></span>
-        </div>
-        <div class="panel-block">
           <span class="panel-icon"><span aria-hidden="true" class="fa fa-fw fa-comments-o"/></span>
           <span>IRC: ctmartin on <a href="https://freenode.net/" target="_blank" rel="noopener">FreeNode</a> &amp; <a href="https://matrix.org/" target="_blank" rel="noopener">Matrix</a></span>
         </div>
